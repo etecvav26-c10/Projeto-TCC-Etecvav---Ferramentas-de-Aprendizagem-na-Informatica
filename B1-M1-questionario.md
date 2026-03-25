@@ -77,3 +77,52 @@ Grandes centros de dados e infraestrutura tecnológica podem contribuir para o e
 
 - Dependência de Energia:
 A crescente dependência da tecnologia e da conectividade digital pode aumentar o consumo de energia, colocando pressão sobre a produção de eletricidade e o meio ambiente.
+
+## 3️⃣ Segurança do trabalho na área de tecnologia
+
+A área de tecnologia é um campo recentemente novo no ambiente de trabalho e na indústria, e seus impactos, embora sejam estudados, não são tão conhecidos ou difundidos como deveriam, dessa forma, por meio dessa pesquisa mostraremos algums dos impactos causados pelas tecnológias da área de desenvolvimento de sistemas.
+
+#### Nomofobia
+A nomofobia trata-se de um medo irracional de se distanciar e ficar sem celular ou outros aparelhos eletrônicos, ou seja, está relacionada a um vício digital com diversas tecnologias. O termo foi criado em 2008, em um artigo do UK Post Office, para abreviar a expressão inglesa “no-mobile”. Como efeitos, a nomofobia pode causar problemas de interação social e dificuldade de comunicação.
+
+#### Síndrome do Toque Fantasma
+O conceito de toque fantasma apareceu pela primeira vez no livro “iDisorder”, do Dr. Larry Rosen, em que o especialista aponta esta como uma das doenças mais comuns da era online. A síndrome do toque fantasma se refere ao momento em que o cérebro faz com que uma pessoa sinta que o celular está vibrando no bolso, sendo que o aparelho não está ali.
+
+#### Transtorno do sono
+Ao utilizar aparelhos eletrônicos, como SmartPhones, Celulares, Desktops, PCs, etc. As luzes e sons emitidas, pouco antes de dormir, deixam o corpo em estado de alerta, fazendo com que o organismo produza menos melatonina (hormônio responsável pelo sono). Aliás, é muito comum que heavy users (usuários intensivos) se queixem de insônia.
+
+#### Problemas na coluna
+Inclinar a cabeça para mexer no celular parece um ato simples e banal, mas acaba exercendo uma carga muito além do que o pescoço pode suportar, alterando a linha de força de peso da coluna. Para se ter uma ideia, a coluna cervical aguenta, no máximo, 6 quilos; dependendo da inclinação para usar o celular, é aplicada uma carga de até 27 quilos. Esse excesso de esforço pode gerar fadiga muscular, danos aos discos da coluna cervical, formigamento e muita dor.
+
+#### Alteração na visão
+Com o esforço para enxergar em telas pequenas, os olhos dos mais conectados estão encontrando dificuldade de enxergar em lugares mais amplos. O que ocorre é uma “falsa miopia” dada por intensa contração da musculatura dos olhos quando forçados por muito tempo. Além da eventual dificuldade para enxergar objetos mais distantes, estão como consequências ardência, irritação, vermelhidão e sensação de vista cansada.
+
+#### Perda auditiva
+Com o avanço da tecnologia, os fones de ouvido estão cada vez mais potentes e cheios de recursos. Porém, o uso do volume alto é um dos maiores responsáveis pela perda auditiva dos usuários. Pelo crescente número de casos, a Organização Mundial da Saúde (OMS) relatou que, ao redor do mundo, metade dos jovens escutam músicas em volumes prejudiciais aos tímpanos.
+
+### Como Solucionar Esses tipos de Problemas
+
+Para José Roberto Marques, presidente do Instituto Brasileiro de Coaching, a saída está no autocontrole. “Vale lembrar que o equilíbrio na rotina é a chave para preservar a qualidade de vida”, ressalta. “Para não alimentar o vício, é importante descobrir os seus reais talentos e desenvolver a inteligência emocional fora da internet. Uma sugestão que pode ser seguida é diminuir o uso das tecnologias em casa. Deixe você e os dispositivos descansarem”, aconselha.
+
+Marques recomenda priorizar as tarefas offline quando encerrar o expediente. “Não faça refeições com aparelhos próximos, desligue ou deixe o celular no modo avião no momento de dormir. Por último, caso não consiga amenizar a frequência, procure a ajuda de um profissional”, Alguns exemplos de habilidades que se pode tomar para garantir uma melhor qualidade de vida são:
+
+- Redução do tempo online.
+- Desligue as notificações.
+- Faça pausas periódicas para alongar o corpo.
+- Silencie o celular durante atividades que exigem maior concentração.
+- Evite levar aparelhos eletrônicos para a cama perto da hora de dormir.
+
+Estimular o cerebro com atividades ao Ar livre, como exercicios, Tomar luz do Sol, regular o ciclo do sono e outros hábitos podem ajudar a manter um estilo de vida saudável.
+
+## 4️⃣ Análise do tema do TCC
+
+Com relação ao **tema do seu TCC**, responda:
+
+### O tema é **pertinente**?
+- Acredito que o Tema escolhido para a pesquisa do TCC seja pertinente na área da programação, a medida que ele visa abordar os diferente impactos do uso de ferramentas e jogos interativos focados no desenvolvimento do raciocínio lógico e como eles ajudam a introduzir novos integrantes á área de programação, dessa forma formentando o mercado de desenvolvimento de sistemas.
+
+### O tema é **relevante**?
+- Sim, o Tema do TCC é extremamente relevante, tendo em vista que tais ferramentas e jogos interativos possuem grande utilidade para a educação infantil e introdução de jovens aos principios da programação, ainda sim é notável a falta de sua exploração e a utilização de seus recursos no meio educativo, o que leva a criação dessa pesquisa de TCC
+
+### O projeto é **viável de ser realizado**?
+- Precisamente , O projeto se trata de uma pesquisa e exploração dos efeitos de tais ferramentas e jogos na formação da lógica de programação. Bem como abordará suas mecâncias e funcionalidades de cada item. O projeto também conta com o desenvolvimento de um site, tal qual será feita com a utilização dos ensinamentos passados durante o periodo do Curso de desenvolvimento de sistemas.
