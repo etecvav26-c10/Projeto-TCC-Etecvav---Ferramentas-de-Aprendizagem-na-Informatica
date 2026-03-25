@@ -126,3 +126,33 @@ Com relação ao **tema do seu TCC**, responda:
 
 ### O projeto é **viável de ser realizado**?
 - Precisamente , O projeto se trata de uma pesquisa e exploração dos efeitos de tais ferramentas e jogos na formação da lógica de programação. Bem como abordará suas mecâncias e funcionalidades de cada item. O projeto também conta com o desenvolvimento de um site, tal qual será feita com a utilização dos ensinamentos passados durante o periodo do Curso de desenvolvimento de sistemas.
+
+## 5️⃣ Cronograma do Projeto
+O projeto de TCC será realizado apenas por um integrante, então a seguir estão descritos as atividades planejadas para o desenvolvimento do projeto de TCC
+
+#### Pesquisa e Coleta de Dados relacionados ao TCC
+- planejada para os meses de **Março, Abril e Maio**.
+
+#### Elaboração dos Artigos relacionados ao TCC e as ferramentas pesquisadas durante o primeiro periodo
+- Planejada para o andamento de **Maio, Junho e Julho**.
+
+#### Desenvolvimento do Site e projeto do TCC, bem como polimento das etapas passadas
+- Planejado para desde **Junho até Novembro**.
+
+#### Revisão Final e Avaliação do projeto
+- Planejado para o mês de **Novembro**.
+
+## 6️⃣ Tipos de pesquisa utilizados no TCC
+
+### Documentação indireta
+Será realizada uma pesquisa documental e bibliográfica sobre as ferramentas e meios interativos estudados no TCC. buscando fontes, referencias, avaliações e outros tipos de materiais que possam ser utilizados para entender o funcionamento, mecânicas e seus impactos educaionais na formação de habilidades da área de desenvolvimento de sistema para os seus usuários.
+
+### Documentação direta
+Na documentação direta serão utilizados vídeos de muktiplos canais, um questionário interativo com o alunos da área na escola para determinar quão presentes essas tecnológias foram na formação acadêmica dos alunos.
+
+Também serão realizados testes experimentais e uma documentação aprofundada das ferramentas por meio da sua utilização e julgamento com base nos critérios já mencionados, assim avaliando a sua coerencia com os dados previamente coletados e complementá-los de forma efetiva para o aprofundamento do projeto.
+
+### Instrumentos de pesquisa
+- Questionários e Formulários
+- Videos e avaliações de fontes confiáveis
+- Artigos e dissertações se existentes sobre as ferramentas.
