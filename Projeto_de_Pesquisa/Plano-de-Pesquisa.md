@@ -56,7 +56,7 @@ Por fim, será criado um site informativo o qual abordara os principais itens es
 | Atividades                 | MAR | ABR | MAIO | JUN | JUL | AGO | SET | OUT | NOV |
 | -------------------------- | --- | --- | ---- | --- | --- | --- | --- | --- | --- |
 | Pesquisa e coleta de dados | X   |  X   |   X   |     |     |     |     |     |     |
-| Elaboração dos artigos     |     |     |  X    | X    |  X   |     |     |     |     |
+| Elaboração dos artigos     |     |     |  X    | X    |  X   | x    |     |     |     |
 | Desenvolvimento do site    |     |     |      |  X   |  X   |   X  |   X  |  X   |     |
 | Entrega do Trabalho        |     |     |      |     |     |     |     |     |  X   |
 
