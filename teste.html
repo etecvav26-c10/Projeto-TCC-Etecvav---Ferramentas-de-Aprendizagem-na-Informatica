@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Blocos</title>
+
+<style>
+
+body{
+  margin:0;
+  overflow:hidden;
+  background:#f0f2f5;
+}
+
+.bloco{
+  position:absolute;
+
+  user-select:none;
+  cursor:grab;
+
+  will-change:transform;
+
+  transition:
+    transform 0.05s linear;
+}
+
+.bloco:active{
+  cursor:grabbing;
+}
+
+.colidiu{
+  scale:1.05;
+}
+
+</style>
+</head>
+
+<body>
+
+<img id="bloco1" class="bloco"
+src="/Website_TCC/Materiais/Codigos_Scratch/1-removebg-preview.png">
+
+<img id="bloco2" class="bloco"
+src="/Website_TCC/Materiais/Codigos_Scratch/2-removebg-preview.png">
+
+<img id="bloco3" class="bloco"
+src="/Website_TCC/Materiais/Codigos_Scratch/4-removebg-preview.png">
+
+<img id="bloco4" class="bloco"
+src="/Website_TCC/Materiais/Codigos_Scratch/3-removebg-preview.png">
+
+<script>
+
+const bloco1 = document.getElementById("bloco1");
+const bloco2 = document.getElementById("bloco2");
+const bloco3 = document.getElementById("bloco3");
+const bloco4 = document.getElementById("bloco4");
+
+const blocos = [bloco1, bloco2, bloco3, bloco4];
+
+// =======================
+// POSIÇÕES INICIAIS
+// =======================
+
+bloco1.posX = 50;
+bloco1.posY = 50;
+
+bloco2.posX = 400;
+bloco2.posY = 100;
+
+bloco3.posX = 750;
+bloco3.posY = 150;
+
+bloco4.posX = 1050;
+bloco4.posY = 250;
+
+// =======================
+// APLICA POSIÇÕES
+// =======================
+
+// =======================
+// VARIÁVEIS
+// =======================
+
+let blocoAtual = null;
+
+let mouseX = 0;
+let mouseY = 0;
+
+let offsetX = 0;
+let offsetY = 0;
+
+let bloco12Criado = false;
+let bloco123Criado = false;
+let bloco1234Criado = false;
+
+// =======================
+// ARRASTAR
+// =======================
+
+blocos.forEach(bloco => {
+
+  bloco.addEventListener("mousedown",(e)=>{
+
+    blocoAtual = bloco;
+
+    offsetX = e.clientX - bloco.posX;
+    offsetY = e.clientY - bloco.posY;
+
+  });
+
+});
+
+// =======================
+// MOUSE
+// =======================
+
+document.addEventListener("mousemove",(e)=>{
+
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+
+});
+
+document.addEventListener("mouseup",()=>{
+
+  blocoAtual = null;
+
+});
+
+// =======================
+// LOOP SUAVE
+// =======================
+
+function loop(){
+
+    if(blocoAtual){
+
+      blocoAtual.posX = mouseX - offsetX;
+      blocoAtual.posY = mouseY - offsetY;
+
+      verificarColisoes();
+
+    }
+
+    blocos.forEach(bloco => {
+
+      if(bloco.style.display !== "none"){
+
+        atualizarPosicao(bloco);
+
+      }
+
+    });
+
+requestAnimationFrame(loop);
+
+}
+
+blocos.forEach(bloco => {
+
+bloco.floatOffset = Math.random() * Math.PI * 2;
+bloco.floatAmplitude = 4 + Math.random() * 6;
+bloco.floatSpeed = 0.001 + Math.random() * 0.002;
+
+atualizarPosicao(bloco);
+
+});
+
+loop();
+
+// =======================
+// ATUALIZAR POSIÇÃO
+// =======================
+
+
+  function atualizarPosicao(bloco){
+
+    let floatY = 0;
+    let rotacao = 0;
+
+    if(bloco !== blocoAtual){
+
+      const tempo =
+        performance.now() * bloco.floatSpeed +
+        bloco.floatOffset;
+
+      floatY =
+        Math.sin(tempo) *
+        bloco.floatAmplitude;
+
+      rotacao =
+        Math.sin(tempo * 0.7) * 2;
+    }
+
+    bloco.style.transform =
+      `translate(${bloco.posX}px, ${bloco.posY + floatY}px)
+      rotate(${rotacao}deg)`;
+
+}
+
+
+
+// =======================
+// COLISÃO
+// =======================
+
+function estaColidindo(a,b){
+
+  const rect1 = a.getBoundingClientRect();
+  const rect2 = b.getBoundingClientRect();
+
+  return (
+
+    rect1.left < rect2.right &&
+    rect1.right > rect2.left &&
+    rect1.top < rect2.bottom &&
+    rect1.bottom > rect2.top
+
+  );
+
+}
+
+// =======================
+// COLISÕES
+// =======================
+
+function verificarColisoes(){
+
+  // 1 + 2
+
+  if(
+    !bloco12Criado
+    &&
+    estaColidindo(bloco1,bloco2)
+  ){
+
+    bloco12Criado = true;
+
+    bloco1.src =
+    "/Website_TCC/Materiais/Codigos_Scratch/1-2-juntos-removebg-preview.png";
+
+    bloco2.style.display = "none";
+
+  }
+
+  // (1+2) + 3
+
+  if(
+    bloco12Criado
+    &&
+    !bloco123Criado
+    &&
+    estaColidindo(bloco1,bloco3)
+  ){
+
+    bloco123Criado = true;
+
+    bloco1.src =
+    "/Website_TCC/Materiais/Codigos_Scratch/1-2-3-juntos-removebg-preview.png";
+
+    bloco3.style.display = "none";
+
+  }
+
+  // (1+2+3) + 4
+
+  if(
+    bloco123Criado
+    &&
+    !bloco1234Criado
+    &&
+    estaColidindo(bloco1,bloco4)
+  ){
+
+    bloco1234Criado = true;
+
+    bloco1.src =
+    "/Website_TCC/Materiais/Codigos_Scratch/1-2-3-4-removebg-preview.png";
+
+    bloco4.style.display = "none";
+
+    alert("Todos os blocos foram unidos!");
+
+  }
+
+}
+
+</script>
+
+</body>
+</html>

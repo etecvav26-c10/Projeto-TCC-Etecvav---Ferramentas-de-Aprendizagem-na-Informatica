@@ -29,7 +29,7 @@
       
       width: 100%;
       background: rgba(0, 0, 0, 0.479);
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #000000;
       padding: 10px 40px;
       display: flex;
       align-items: center;
@@ -191,7 +191,10 @@
         border-radius: 50px;
         text-decoration: none;
         box-shadow: 0 4px 18px rgba(0,0,0,0.15);
-        transition: transform .2s, box-shadow .2s;
+        will-change: transform;
+
+        transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
         border: none;
         cursor: pointer;
     }
@@ -284,7 +287,7 @@
     .img-block {
       background: rgba(255,140,0,0.12);
       border-radius: var(--radius);
-      height: 300px;
+      margin-left: 100px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -457,3 +460,28 @@
       .cards { grid-template-columns: 1fr; }
       .stats-grid { grid-template-columns: 1fr; gap: 30px; }
     }
+
+/* BLOCOS ----- */
+
+.bloco{
+  position:absolute;
+
+  user-select:none;
+  cursor:grab;
+
+  will-change:transform;
+
+  transition:
+    transform 0.05s linear;
+  
+  max-width: 500px;
+    
+}
+
+.bloco:active{
+  cursor:grabbing;
+}
+
+.colidiu{
+  scale:1.05;
+}
