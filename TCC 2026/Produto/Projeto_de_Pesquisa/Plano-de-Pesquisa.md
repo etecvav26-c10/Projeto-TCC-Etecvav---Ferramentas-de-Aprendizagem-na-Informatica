@@ -53,12 +53,14 @@ Por fim, será criado um site informativo o qual abordara os principais itens es
 
 ## Cronograma:
 
-| Atividades                 | MAR | ABR | MAIO | JUN | JUL | AGO | SET | OUT | NOV |
-| -------------------------- | --- | --- | ---- | --- | --- | --- | --- | --- | --- |
-| Pesquisa e coleta de dados | X   |  X   |   X   |  x   |  x   |  x   |     |     |     |
-| Elaboração dos artigos     |     |     |  X    | X    |  X   | x    |     |     |     |
-| Desenvolvimento do site    |     |     |      |  X   |  X   |   X  |   X  |  X   |     |
-| Entrega do Trabalho        |     |     |      |     |     |     |     |     |  X   |
+| Atividades                          | MAR | ABR | MAI | JUN | JUL | AGO | SET |
+|-------------------------------------|-----|-----|-----|-----|-----|-----|-----|
+| Elaboração e Definição do projeto   |  X  |     |     |     |     |     |     |
+| Coleta de dados                     |     |  X  |  X  |  X  |     |     |     |
+| Elaboração da Pesquisa              |     |     |  X  |  X  |  X  |     |     |
+| Conceituação do website             |     |     |     |  X  |  X  |  X  |     |
+| Programação do website              |     |     |     |  X  |  X  |  X  |  X  |
+| Revisão e Polimento do projeto      |     |     |     |     |     |     |  X  |    
 
 ## Resultados Esperados:
 
