@@ -1,149 +1,105 @@
+---
+layout: false
+---
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Scratch - A ferramenta interativa de programação mais famosa do mundo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
-    rel="stylesheet" />
+  <title>Infohub - Portal de Ferramentas de Aprendizagem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
   <link href="/Hub_Principal.css" rel="stylesheet" />
 </head>
 <body>
-  <!-- NAV -->
   <nav>
     <div class="nav-logo">
       <div class="nav-logo">
-        <img src="../Website_TCC/Materiais/Logo_Preta.png"
-            style="height: 60px; width: auto;"
-            alt="Logo">
+        <img src="/Materiais/Logo_Preta.png" style="height: 60px; width: auto;" alt="Logo">
       </div>
     </div>
     <ul class="nav-links">
-      <li><a href="https://scratchbrasil.org.br/o-que-e-scratch/" target="_blank">Ferramentas</a></li>
-      <li><a href="https://scratchbrasil.org.br/documentacao/" target="_blank">Sobre nós</a></li>
-      <li><a href="https://www.scratchfoundation.org/home" target="_blank">Guia para Iniciantes</a></li>
-      <li><a href="https://scratchbrasil.org.br/hub-principal/" target="_blank">Documentação</a></li>
+      <li><a href="/Ferramentas_B">Ferramentas</a></li>
+      <li><a href="#sobre">Sobre nós</a></li>
+      <li><a href="/Guia_Intermediario">Guia para Iniciantes</a></li>
+      <li><a href="/Scratch_D">Documentação</a></li>
     </ul>
   </nav>
 
-  <!-- HERO -->
   <section class="hero">
-
-    <!-- Carrossel de fundo -->
     <div class="hero-carousel">
-
-      <div class="hero-slide active"
-        style="background-image:url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/f5823540bc3507f2b105ce3d5773034e741365fa/capsule_616x353.jpg?t=1781022139')">
-      </div>
-      <div class="hero-slide"
-        style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665030/capsule_616x353.jpg?t=1711981369')">
-      </div>
-      <div class="hero-slide"
-        style="background-image:url('https://i.pinimg.com/736x/99/2e/ce/992eceb9ddfca10b99df4e332e8c7741.jpg')">
-      </div>
-    </div>
+      <div class="hero-slide active" style="background-image:url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/f5823540bc3507f2b105ce3d5773034e741365fa/capsule_616x353.jpg?t=1781022139')"></div>
+      <div class="hero-slide" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665030/capsule_616x353.jpg?t=1711981369')"></div>
+      <div class="hero-slide" style="background-image:url('https://i.pinimg.com/736x/99/2e/ce/992eceb9ddfca10b99df4e332e8c7741.jpg')"></div>
     </div>
 
-    <!-- Conteúdo -->
     <div class="hero-content" style="margin-left:10%; margin-right:10%;">
-      <div class="hero-coluna" style="">
+      <div class="hero-coluna">
         <div class="hero-title" style="text-align: left;" >
-          <h1>Bem-Vindo ao Infohub!
-          </h1>
+          <h1>Bem-Vindo ao Infohub!</h1>
           <p class="hero-paragrafos">
-            Bem vindo ao Infohub, o seu portal de conhecimento sobre ferramentas, jogos, e plataformas para te ajudarem na sua jornada aprendedo programação!
+            Bem vindo ao Infohub, o seu portal de conhecimento sobre ferramentas, jogos, e plataformas para te ajudarem na sua jornada aprendendo programação!
           </p>            
           <p class="hero-paragrafos">
             Se for um iniciante, experimente o botão abaixo e explore o nosso guia para a sua jornada de aprendizado!
           </p>
-
-          <a href="https://scratchbrasil.org.br/o-que-e-scratch/" target="_blank" class="btn-primary">
-        Comece a sua jornada de programação!
-      </a>
+          <a href="/Ferramentas_B" class="btn-primary">Comece a sua jornada de programação!</a>
         </div>   
       </div>
-      <div class="hero-coluna" style="">
-        
-      </div>
+      <div class="hero-coluna"></div>
     </div>
   </section>
-    <div class="section">
-      <h1 class="section-title">Encontre Ferramentas de Aprendizagem para sua jornada de programação</h1>
-    </div>
-  <!-- Cards-->
-  <section class="container-cards">
-    <div class="ferramenta-card">
-      <a href="../Website_TCC/scratch_site.html" target="_blank">
 
-        <img src="../Website_TCC/Materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;">
-
-        <div class="ferramenta-overlay"></div>
-
-        <div class="ferramenta-conteudo">
-
-            <img src="../Website_TCC/Materiais/scratch-svgrepo-com.svg" class="ferramenta-icone">
-
-            <h3>Scratch</h3>
-
-            <div class="ferramenta-extra">
-
-                <p>
-                    Melhor e maior plataforma para você começar a sua jornada para aprender programação!
-                </p>
-
-                <div class="ferramenta-info">
-                    <span>🌐 Linguagem própria</span>
-                    <br>
-                    <span>🏷️ Gratuita</span>
-                    <br>
-                    <span>📂 Open Source</span>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <div class="ferramenta-card">
-
-        <img src="../Website_TCC/Materiais/TFM_banner.png" class="ferramenta-bg">
-
-        <div class="ferramenta-overlay"></div>
-
-        <div class="ferramenta-conteudo">
-
-            <img src="../Website_TCC/Materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone">
-
-            <h3>The Farmer Was Replaced</h3>
-
-            <div class="ferramenta-extra">
-
-                <p>
-                    Jogo super interativo e complexo desenvolvido para aprender linguagem python
-                </p>
-
-                <div class="ferramenta-info">
-                    <span>🌐 Linguagem Python</span>
-                    <br>
-                    <span>🏷️ Pago</span>
-                    <br>
-                    <span>📂 Não Open Source</span>
-                </div>
-
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-  </section>
-  <div class="section" style="text-align: center;">
-    <a href="https://scratchbrasil.org.br/o-que-e-scratch/" target="_blank" class="btn-primary">Encontre mais na nossa aba de documentação!</a>
+  <div class="section">
+    <h1 class="section-title">Encontre Ferramentas de Aprendizagem para sua jornada de programação</h1>
   </div>
 
-  <section class="section" style="background: rgb(11, 0, 24); max-width: 100%;">
+  <section class="container-cards">
+    <div class="ferramenta-card">
+      <a href="/Scratch_D">
+        <img src="/Materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;">
+        <div class="ferramenta-overlay"></div>
+        <div class="ferramenta-conteudo">
+          <img src="/Materiais/scratch-svgrepo-com.svg" class="ferramenta-icone">
+          <h3>Scratch</h3>
+          <div class="ferramenta-extra">
+            <p>Melhor e maior plataforma para você começar a sua jornada para aprender programação!</p>
+            <div class="ferramenta-info">
+              <span>🌐 Linguagem própria</span><br>
+              <span>🏷️ Gratuita</span><br>
+              <span>📂 Open Source</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="ferramenta-card">
+      <a href="/TFWR_D">
+        <img src="/Materiais/TFM_banner.png" class="ferramenta-bg">
+        <div class="ferramenta-overlay"></div>
+        <div class="ferramenta-conteudo">
+          <img src="/Materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone">
+          <h3>The Farmer Was Replaced</h3>
+          <div class="ferramenta-extra">
+            <p>Jogo super interativo e complexo desenvolvido para aprender linguagem python</p>
+            <div class="ferramenta-info">
+              <span>🌐 Linguagem Python</span><br>
+              <span>🏷️ Pago</span><br>
+              <span>📂 Não Open Source</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="section" style="text-align: center;">
+    <a href="/Scratch_D" class="btn-primary">Encontre mais na nossa aba de documentação!</a>
+  </div>
+
+  <section id="sobre" class="section" style="background: rgb(11, 0, 24); max-width: 100%;">
     <div class="two-col" style="margin-left: 10%; margin-right: 10%; align-items: flex-start;">
       <div>
         <h1 class="section-title" style="text-align: left;">Sobre nós</h1>
@@ -155,23 +111,21 @@
               <span>O que é o Infohub?</span>
             </button>
             <div class="accordion-content">
-              <p>O infohub se trata de uma biblioteca virtual que tem o intuito de coletar e tornar acessivel e de simples acesso o conhecimento sobre ferramentas de aprendizado de programação para estudantes da informática.</p>
+              <p>O infohub se trata de uma biblioteca virtual que tem o intuito de coletar e tornar acessível e de simples acesso o conhecimento sobre ferramentas de aprendizado de programação para estudantes da informática.</p>
             </div>
           </div>
         </div>
+
         <div class="accordion">
           <div class="accordion-item">
             <button class="accordion-header">
               <span class="icone">+</span>
-              <span>Porque ele existe?</span>
+              <span>Por que ele existe?</span>
             </button>
             <div class="accordion-content">
-              <p>O infohub surgiu como uma resposta a falta de uma compilação clara e objetiva de conhecimentos sobre o ensino pedagógico dinâmico da programação.
-              <br><br>
-              Embora existam diversas plataformas, jogos e utensilios uteis no aprendizado da programação e do campo da informática. Não existem portais dedicados a sua exploração e suas informações estão dissolvidas pela internet em sites de pouca confiabilidade.
-              <br><br>
-              O infohub tem como intuito prover uma solução para isso, proporcionando assim um canal onde você pode encontrar meios, links e explicações sobre ferramentas para o aprendizado da programação, suas mecânicas, e seus locais de encontro.
-              </p>
+              <p>O infohub surgiu como uma resposta à falta de uma compilação clara e objetiva de conhecimentos sobre o ensino pedagógico dinâmico da programação.<br><br>
+              Embora existam diversas plataformas, jogos e utensílios úteis no aprendizado da programação e do campo da informática, não existem portais dedicados à sua exploração e suas informações estão dissolvidas pela internet em sites de pouca confiabilidade.<br><br>
+              O infohub tem como intuito prover uma solução para isso, proporcionando assim um canal onde você pode encontrar meios, links e explicações sobre ferramentas para o aprendizado da programação, suas mecânicas, e seus locais de encontro.</p>
             </div>
           </div>
         </div>
@@ -183,15 +137,11 @@
               <span>O que eu posso encontrar no Infohub?</span>
             </button>
             <div class="accordion-content">
-              <p>Dentro do Infohub, você pode encontrar Guias, Materiais e explicações didáticas sobre ferramentas uteis no desenvolvimento da programação.
-              <br><br>
-              Possuimos sessões dedicadas a abordar o tipo de linguagem ensinada por cada ferramenta e suas utilidade. Um guia de quais ferramentas um iniciante pode utilizar para melhorar o seu aprendizado. E páginas dedicadas completamente a dissertar sobre essas ferramentas, ensinando assim o seu básico e potencial pedagógico.
-              </p>
+              <p>Dentro do Infohub, você pode encontrar Guias, Materiais e explicações didáticas sobre ferramentas úteis no desenvolvimento da programação.<br><br>
+              Possuímos seções dedicadas a abordar o tipo de linguagem ensinada por cada ferramenta e sua utilidade. Um guia de quais ferramentas um iniciante pode utilizar para melhorar o seu aprendizado. E páginas dedicadas completamente a dissertar sobre essas ferramentas, ensinando assim o seu básico e potencial pedagógico.</p>
             </div>
           </div>
         </div>
-        
-        
       </div>
 
       <div class="container-imagem">
@@ -200,7 +150,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
       <div class="footer-logo">
@@ -213,11 +162,7 @@
       </div>
       <div class="etec-box">
         <p>
-          <strong style="color:#ccc;">ETEC VASCO ANTONIO VENCHIARUTTI</strong> — Tem como patrono o arquiteto Vasco
-          Antonio Venchiarutti, o qual tinha o sonho de criar em Jundiaí uma escola para formação de profissionais da
-          Construção Civil. Promulgou a Lei nº 624 de 15 de março de 1958 instituindo a Escola Técnica de Construção
-          Civil, firmando em seguida convênio com União (MEC), Estado e Prefeitura Municipal para a construção das
-          instalações dos prédios que abrigariam a Escola.
+          <strong style="color:#ccc;">ETEC VASCO ANTONIO VENCHIARUTTI</strong> — Tem como patrono o arquiteto Vasco Antonio Venchiarutti, o qual tinha o sonho de criar em Jundiaí uma escola para formação de profissionais da Construção Civil...
           <br />Quer saber mais?<br /> Acesse: <br><a href="https://etevav.com.br" target="_blank">https://etevav.com.br</a>
         </p>
       </div>
@@ -226,6 +171,4 @@
   </footer>
   <script src="/Hub_Script.js"></script>
 </body>
-
-
 </html>
