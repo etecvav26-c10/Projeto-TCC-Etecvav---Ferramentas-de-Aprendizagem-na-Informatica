@@ -1,26 +1,16 @@
 import { defineConfig } from 'vitepress';
 
-// refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
   base: '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
-  lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  lang: 'pt-BR',
+  title: 'Infohub',
+  description: 'Portal de ferramentas de aprendizagem em programação.',
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
-
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
+      { text: 'Ferramentas Básicas', link: '/Ferramentas_B' },
+      { text: 'Scratch', link: '/Scratch_D' },
+      { text: 'TFWR', link: '/TFWR_D' },
     ],
 
     sidebar: [
