@@ -1,5 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
 import './Hub_Principal.css'
-import './Hub_Script.js'
+import { inBrowser } from 'vitepress'
 
-export default DefaultTheme
+export default {
+  ...DefaultTheme,
+  enhanceApp() {
+    if (inBrowser) {
+      import('./Hub_Script.js')
+    }
+  }
+}
