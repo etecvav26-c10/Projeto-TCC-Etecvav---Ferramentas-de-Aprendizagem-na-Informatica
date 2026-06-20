@@ -50,42 +50,38 @@ layout: false
 <section class="container-cards">
 
   <div class="ferramenta-card">
-    <a href="/Scratch_D" target="_blank">
+    <div class="ferramenta-conteudo">
       <img src="./materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;" />
       <div class="ferramenta-overlay"></div>
-      <div class="ferramenta-conteudo">
-        <img src="./materiais/scratch-svgrepo-com.svg" class="ferramenta-icone" />
-        <h3>Scratch</h3>
-        <div class="ferramenta-extra">
-          <p>Melhor e maior plataforma para você começar a sua jornada para aprender programação!</p>
-          <div class="ferramenta-info">
-            <span>🌐 Linguagem própria</span><br />
-            <span>🏷️ Gratuita</span><br />
-            <span>📂 Open Source</span>
-          </div>
+      <img src="./materiais/scratch-svgrepo-com.svg" class="ferramenta-icone" />
+      <h3><a href="/Scratch_D">Scratch</a></h3>
+      <div class="ferramenta-extra">
+        <p>Melhor e maior plataforma para você começar a sua jornada para aprender programação!</p>
+        <div class="ferramenta-info">
+          <span>🌐 Linguagem própria</span><br />
+          <span>🏷️ Gratuita</span><br />
+          <span>📂 Open Source</span>
         </div>
       </div>
-    </a>
+    </div>
   </div>
 
   <div class="ferramenta-card">
-    <a href="/TFWR_D" target="_blank">
+    <div class="ferramenta-conteudo">
       <img src="./materiais/TFM_banner.png" class="ferramenta-bg" />
       <div class="ferramenta-overlay"></div>
-      <div class="ferramenta-conteudo">
-        <img src="./materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone" />
-        <h3>The Farmer Was Replaced</h3>
-        <div class="ferramenta-extra">
-          <p>Jogo super interativo e complexo desenvolvido para aprender linguagem python</p>
-          <div class="ferramenta-info">
-            <span>🌐 Linguagem Python</span><br />
-            <span>🏷️ Pago</span><br />
-            <span>📂 Não Open Source</span>
-          </div>
+      <img src="./materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone" />
+      <h3><a href="/TFWR_D">The Farmer Was Replaced</a></h3>
+      <div class="ferramenta-extra">
+        <p>Jogo super interativo e complexo desenvolvido para aprender linguagem python</p>
+        <div class="ferramenta-info">
+          <span>🌐 Linguagem Python</span><br />
+          <span>🏷️ Pago</span><br />
+          <span>📂 Não Open Source</span>
         </div>
       </div>
-    </a>
-  </div>
+    </div>
+</div>
 
 </section>
 
