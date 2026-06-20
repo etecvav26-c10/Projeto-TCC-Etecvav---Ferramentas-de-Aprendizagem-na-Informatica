@@ -1,6 +1,6 @@
 # VitePress 💙 StackBlitz
 
-Hi there :wave: This is a demo running VitePress within your **browser tab**!
+Hii there :wave: This is a demo running VitePress within your **browser tab**!
 
 ## Powered by Vite
 
