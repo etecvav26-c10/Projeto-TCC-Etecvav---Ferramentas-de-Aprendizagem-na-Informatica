@@ -1,5 +1,4 @@
 import DefaultTheme from 'vitepress/theme'
-import HomePage from '../components/HomePage.vue' // ou o caminho correto para o arquivo
 
 export default {
   extends: DefaultTheme,
