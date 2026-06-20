@@ -5,7 +5,7 @@ layout: false
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <img src="./materiais/Logo_Preta.png" style="height: 60px; width: auto;" alt="Logo">
+    <img src="./materiais/Logo_Preta.png" style="height: 60px; width: auto;" alt="Logo" />
   </div>
   <ul class="nav-links">
     <li><a href="https://scratchbrasil.org.br/o-que-e-scratch/" target="_blank">Ferramentas</a></li>
@@ -51,16 +51,16 @@ layout: false
 
   <div class="ferramenta-card">
     <a href="/Scratch_D" target="_blank">
-      <img src="./materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;">
+      <img src="./materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;" />
       <div class="ferramenta-overlay"></div>
       <div class="ferramenta-conteudo">
-        <img src="./materiais/scratch-svgrepo-com.svg" class="ferramenta-icone">
+        <img src="./materiais/scratch-svgrepo-com.svg" class="ferramenta-icone" />
         <h3>Scratch</h3>
         <div class="ferramenta-extra">
           <p>Melhor e maior plataforma para você começar a sua jornada para aprender programação!</p>
           <div class="ferramenta-info">
-            <span>🌐 Linguagem própria</span><br>
-            <span>🏷️ Gratuita</span><br>
+            <span>🌐 Linguagem própria</span><br />
+            <span>🏷️ Gratuita</span><br />
             <span>📂 Open Source</span>
           </div>
         </div>
@@ -70,16 +70,16 @@ layout: false
 
   <div class="ferramenta-card">
     <a href="/TFWR_D" target="_blank">
-      <img src="./materiais/TFM_banner.png" class="ferramenta-bg">
+      <img src="./materiais/TFM_banner.png" class="ferramenta-bg" />
       <div class="ferramenta-overlay"></div>
       <div class="ferramenta-conteudo">
-        <img src="./materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone">
+        <img src="./materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone" />
         <h3>The Farmer Was Replaced</h3>
         <div class="ferramenta-extra">
           <p>Jogo super interativo e complexo desenvolvido para aprender linguagem python</p>
           <div class="ferramenta-info">
-            <span>🌐 Linguagem Python</span><br>
-            <span>🏷️ Pago</span><br>
+            <span>🌐 Linguagem Python</span><br />
+            <span>🏷️ Pago</span><br />
             <span>📂 Não Open Source</span>
           </div>
         </div>
@@ -112,8 +112,8 @@ layout: false
         <div class="accordion-item">
           <button class="accordion-header"><span class="icone">+</span><span>Porque ele existe?</span></button>
           <div class="accordion-content">
-            <p>O infohub surgiu como uma resposta a falta de uma compilação clara e objetiva de conhecimentos sobre o ensino pedagógico dinâmico da programação.<br><br>
-            Embora existam diversas plataformas, jogos e utensílios úteis no aprendizado da programação e do campo da informática, não existem portais dedicados a sua exploração.<br><br>
+            <p>O infohub surgiu como uma resposta a falta de uma compilação clara e objetiva de conhecimentos sobre o ensino pedagógico dinâmico da programação.<br /><br />
+            Embora existam diversas plataformas, jogos e utensílios úteis no aprendizado da programação e do campo da informática, não existem portais dedicados a sua exploração.<br /><br />
             O infohub tem como intuito prover uma solução para isso, proporcionando um canal onde você pode encontrar meios, links e explicações sobre ferramentas para o aprendizado da programação.</p>
           </div>
         </div>
@@ -123,7 +123,7 @@ layout: false
         <div class="accordion-item">
           <button class="accordion-header"><span class="icone">+</span><span>O que eu posso encontrar no Infohub?</span></button>
           <div class="accordion-content">
-            <p>Dentro do Infohub, você pode encontrar Guias, Materiais e explicações didáticas sobre ferramentas úteis no desenvolvimento da programação.<br><br>
+            <p>Dentro do Infohub, você pode encontrar Guias, Materiais e explicações didáticas sobre ferramentas úteis no desenvolvimento da programação.<br /><br />
             Possuímos sessões dedicadas a abordar o tipo de linguagem ensinada por cada ferramenta e suas utilidades, um guia de quais ferramentas um iniciante pode utilizar, e páginas dedicadas a dissertar sobre essas ferramentas.</p>
           </div>
         </div>
@@ -131,7 +131,7 @@ layout: false
     </div>
 
     <div class="container-imagem">
-      <img class="imagem" src="https://img.magnific.com/free-vector/computer-service-pattern_1284-33514.jpg?semt=ais_hybrid&w=740&q=80" alt="Sobre nós">
+      <img class="imagem" src="https://img.magnific.com/free-vector/computer-service-pattern_1284-33514.jpg?semt=ais_hybrid&w=740&q=80" alt="Sobre nós" />
     </div>
   </div>
 </section>
@@ -150,7 +150,7 @@ layout: false
     <div class="etec-box">
       <p>
         <strong style="color:#ccc;">ETEC VASCO ANTONIO VENCHIARUTTI</strong> — Tem como patrono o arquiteto Vasco Antonio Venchiarutti, o qual tinha o sonho de criar em Jundiaí uma escola para formação de profissionais da Construção Civil. Promulgou a Lei nº 624 de 15 de março de 1958 instituindo a Escola Técnica de Construção Civil, firmando em seguida convênio com União (MEC), Estado e Prefeitura Municipal para a construção das instalações dos prédios que abrigariam a Escola.
-        <br>Quer saber mais?<br>Acesse: <br><a href="https://etevav.com.br" target="_blank">https://etevav.com.br</a>
+        <br />Quer saber mais?<br />Acesse: <br /><a href="https://etevav.com.br" target="_blank">https://etevav.com.br</a>
       </p>
     </div>
     <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
