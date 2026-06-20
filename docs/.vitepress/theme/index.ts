@@ -1,12 +1,10 @@
+
 import DefaultTheme from 'vitepress/theme'
-import './Hub_Principal.css'
-import { inBrowser } from 'vitepress'
+import HomePage from '../../components/HomePage.vue'
 
 export default {
   ...DefaultTheme,
-  enhanceApp() {
-    if (inBrowser) {
-      import('./Hub_Script.js')
-    }
+  enhanceApp({ app }) {
+    app.component('HomePage', HomePage)
   }
 }
