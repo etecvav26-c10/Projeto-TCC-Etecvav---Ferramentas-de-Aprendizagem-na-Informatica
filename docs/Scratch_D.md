@@ -183,3 +183,4 @@ Isso transforma o aprendizado em algo social: o usuário não cria apenas para s
 | **Idiomas** | 70+ |
 | **Usuários registrados** | 100 milhões+ |
 | **Custo** | Gratuito |
+**
