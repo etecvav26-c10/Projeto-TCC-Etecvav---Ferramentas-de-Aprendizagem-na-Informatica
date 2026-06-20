@@ -22,7 +22,6 @@ layout: false
     <div class="hero-slide" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665030/capsule_616x353.jpg?t=1711981369')"></div>
     <div class="hero-slide" style="background-image:url('https://i.pinimg.com/736x/99/2e/ce/992eceb9ddfca10b99df4e332e8c7741.jpg')"></div>
   </div>
-
   <div class="hero-content" style="margin-left:10%; margin-right:10%;">
     <div class="hero-coluna">
       <div class="hero-title" style="text-align: left;">
@@ -81,7 +80,7 @@ layout: false
         </div>
       </div>
     </div>
-</div>
+  </div>
 
 </section>
 
