@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,26 +27,36 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: TCC_2026/Produto/Website_TCC/package-lock.json
 
-      - uses: actions/configure-pages@v4
+      - uses: actions/configure-pages@v5
 
-      - run: npm install
+      - name: Install dependencies
+        working-directory: TCC_2026/Produto/Website_TCC
+        run: npm install
 
-      - run: npm run docs:build 
+      - name: Build VitePress
+        working-directory: TCC_2026/Produto/Website_TCC
+        run: npm run docs:build
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: TCC_2026/Produto/Website_TCC/docs/.vitepress/dist
 
   deploy:
     needs: build
+
     runs-on: ubuntu-latest
+
     permissions:
       pages: write
       id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4

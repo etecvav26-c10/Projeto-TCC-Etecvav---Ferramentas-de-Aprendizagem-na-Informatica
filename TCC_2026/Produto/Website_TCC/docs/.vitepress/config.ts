@@ -8,9 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Ferramentas Básicas', link: '/Ferramentas_B' },
-      { text: 'Scratch', link: '/Scratch_D' },
-      { text: 'TFWR', link: '/TFWR_D' },
+      { text: 'Introducao', link: '/Introducao' },
     ],
 
     sidebar: [
@@ -20,8 +18,8 @@ export default defineConfig({
             text: 'Guia de introdução à programação',
             items: [
               { text: 'Ferramentas básicas', link: '/Ferramentas_B' },
-              { text: 'Intermediárias', link: '/Guia_Intermediario' },
-              { text: 'Avançadas', link: '/Guia_Avançado' },
+              { text: 'Intermediárias', },
+              { text: 'Avançadas', },
             ],
           },
           {
