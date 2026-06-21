@@ -1,8 +1,3 @@
-# VitePress 💙 StackBlitz
----
-title: Ferramentas Básicas
-outline: deep
----
 
 # Guia de Ferramentas Básicas para Aprender Lógica de Programação
 
