@@ -1,10 +1,12 @@
-
 ---
 layout: false
 ---
 
 <script setup>
-import HomePage from './components/HomePage.vue'
-</script>
+import { onMounted } from 'vue'
+import { withBase } from 'vitepress'
 
-<HomePage />
+onMounted(() => {
+  window.location.href = withBase('/Hub_Principal.html')
+})
+</script>
