@@ -1,8 +1,8 @@
 # Projeto de Pesquisa sobre Ferramentas de aprendizagem na área da informática
-# Infoportal 🖥️
+# InfoHub 🖥️
 
 ## o que é sobre?
-Por meio desse projeto de conclusão de curso, está sendo desenvolvido uma pesquisa juntamente com um site com o intuito de se aprofundar e disponiblizar meios e pesquisas sobre a utilização de ferramentas de aprendizagem no meio da informatica e programação
+Por meio desse projeto de conclusão de curso, Busca-se o desenvolvimento de um site com o intuito de se aprofundar e disponiblizar meios e pesquisas sobre a utilização de ferramentas de aprendizagem no meio da informatica e programação
 
 ## Como será feito?
 O projeto do Infoportal visa procurar e efetuar uma pesquisa sobre determinadas ferramentas digitais que ajudam na introdução dos conceitos da informática para novos integrantes da área de informatica, a pesquisa visa analizar os seguintes tópicos:
@@ -28,3 +28,4 @@ Cada ferramenta abordada na pesquisa terá sua própria webpágina
 - HTML
 - CSS
 - Javascript
+- Vitepress
