@@ -1,14 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
+import { inBrowser } from 'vitepress'
 
 export default {
   extends: DefaultTheme,
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'home-features-after': () => h(HomePage),
-      'home-hero-before': () => h(HomePage)
-    })
-  },
-  enhanceApp({ app }) {
-  
-  }
 }
