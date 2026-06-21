@@ -8,9 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Ferramentas Básicas', link: '/Ferramentas_B' },
-      { text: 'Scratch', link: '/Scratch_D' },
-      { text: 'TFWR', link: '/TFWR_D' },
+      { text: 'Introdução', link: '/Introducao' }, 
     ],
 
     sidebar: [
