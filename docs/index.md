@@ -10,3 +10,7 @@ onMounted(() => {
   window.location.replace(withBase('/Hub_Principal.html'))
 })
 </script>
+
+<template>
+  <meta http-equiv="refresh" content="0; url=/Hub_Principal.html" />
+</template>
