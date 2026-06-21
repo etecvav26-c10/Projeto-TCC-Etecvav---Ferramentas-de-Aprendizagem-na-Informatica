@@ -307,7 +307,7 @@ estaColidindo(bloco1,bloco2)
 bloco12Criado = true;
 
 bloco1.src =
-"../Website_TCC/Materiais/Codigos_Scratch/Botao1-2.png";
+"./materiais/Codigos_Scratch/Botao1-2.png";
 
 bloco2.style.display = "none";
 
@@ -326,7 +326,7 @@ estaColidindo(bloco1,bloco3)
 bloco123Criado = true;
 
 bloco1.src =
-"../Website_TCC/Materiais/Codigos_Scratch/Botao1-2-3.png";
+"./materiais/Codigos_Scratch/Botao1-2-3.png";
 
 bloco3.style.display = "none";
 
@@ -345,7 +345,7 @@ estaColidindo(bloco1,bloco4)
 bloco1234Criado = true;
 
 bloco1.src =
-"../Website_TCC/Materiais/Codigos_Scratch/Botao1-2-3-4.png";
+"./materiais/Codigos_Scratch/Botao1-2-3-4.png";
 
 bloco4.style.display = "none";
 
