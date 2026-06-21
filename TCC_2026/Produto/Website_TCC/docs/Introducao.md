@@ -1,6 +1,6 @@
 # Introdução
 
-Bem vindo á **documentação do CodeHub**, aqui dentro você pode encontrar informações mais precisas e conhecimentos mais avançados sobre os objetos pesquisados dentro da plataforma. Explore e se divirta procurando novos meios de aprender programação!
+Bem vindo á **documentação do Infohub**, aqui dentro você pode encontrar informações mais precisas e conhecimentos mais avançados sobre os objetos pesquisados dentro da plataforma. Explore e se divirta procurando novos meios de aprender programação!
 
 Aqui vão mais algumas informações sobre o que você pode encontrar aqui:
 
