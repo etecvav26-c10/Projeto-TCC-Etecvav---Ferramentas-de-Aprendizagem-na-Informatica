@@ -679,13 +679,10 @@
 }
 
 
-.container-imagem
-{
+.container-imagem {
     height: 650px;
-
     position: relative;
     overflow: hidden;
-
     border-radius: 24px;
 
     background: linear-gradient(
@@ -694,11 +691,15 @@
         #6a2de2
     );
 }
-.imagem img {
-    display: block;
+
+.imagem {
     width: 100%;
+    height: 100%;
 }
 
-.imagem::after {
-
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* remove espaços em branco indesejados */
 }
