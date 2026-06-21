@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  srcDir: 'docs',
   base: '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
   lang: 'pt-BR',
   title: 'Infohub',
