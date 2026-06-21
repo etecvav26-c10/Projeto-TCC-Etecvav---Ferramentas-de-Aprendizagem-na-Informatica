@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   transformHead({ pageData }) {
     if (pageData.relativePath === 'index.md') {
-      return [['meta', { 'http-equiv': 'refresh', content: '0; url=/Hub_Principal.html' }]]
+      return [['meta', { 'http-equiv': 'refresh', content: '0; url=https://etecvav26-c10.github.io/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/Hub_Principal.html' }]]
     }
   },
   base: '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
