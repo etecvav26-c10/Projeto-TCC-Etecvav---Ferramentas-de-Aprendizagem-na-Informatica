@@ -354,6 +354,3 @@ alert("Todos os blocos foram unidos!");
 }
 
 }
-
-    // Faz os botões de seta rolarem a trilha de cards
-    
