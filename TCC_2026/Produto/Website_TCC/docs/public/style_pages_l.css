@@ -331,7 +331,7 @@
 
     /* ── CHARACTERISTICS ── */
     .char-section {
-      background: var(--gray-light);
+      background: #ebecf3;
       padding: 80px 40px;
     }
     .char-inner {
@@ -365,6 +365,7 @@
       align-items: center;
       justify-content: center;
       margin: 0 auto 20px;
+      margin-top: -60px;
     }
     .card-icon svg { width: 28px; height: 28px; fill: white; }
     .card h3 {
@@ -575,13 +576,28 @@
     border-color:rgba(255,255,255,.4);
 }
 
-@media (max-width:768px){
+@media (max-width: 768px){
 
-    .carousel-btn{
+  .container-cards{
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow-x: visible;
+      gap:20px;
+  }
 
-        display:none;
-    }
+  .ferramenta-card{
+      flex:1 1 320px;
+      width:100%;
+      max-width:380px;
+      height:480px;
+  }
+
+  .carousel-btn{
+      display:none;
+  }
+
 }
+
 
 .ferramenta-card{
 

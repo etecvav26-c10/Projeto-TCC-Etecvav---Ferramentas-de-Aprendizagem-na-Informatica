@@ -586,12 +586,26 @@
     border-color:rgba(255,255,255,.4);
 }
 
-@media (max-width:768px){
+@media (max-width: 768px){
 
-    .carousel-btn{
+  .container-cards{
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow-x: visible;
+      gap:20px;
+  }
 
-        display:none;
-    }
+  .ferramenta-card{
+      flex:1 1 320px;
+      width:100%;
+      max-width:380px;
+      height:480px;
+  }
+
+  .carousel-btn{
+      display:none;
+  }
+
 }
 
 .ferramenta-card{
