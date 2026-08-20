@@ -130,6 +130,10 @@
     
     .hero-title {
         margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         animation: moverFundo 3s ease-in-out infinite alternate;
     }
 
@@ -231,7 +235,7 @@
     /* ── SECTIONS ── */
     .section {
       padding: 80px 40px;
-      max-width: 1400px;
+      max-width: 1500px;
       margin: 0 auto;
 
     }
