@@ -239,6 +239,10 @@
       margin: 0 auto;
 
     }
+    .section .section-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
     .section-orange {
       --section-color: linear-gradient(135deg, var(--orange-light), var(--orange));
       background: var(--section-color);
