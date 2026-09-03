@@ -245,14 +245,12 @@
     }
 
     /* ── SECTIONS ── */
-   /* ── SECTIONS ── */
+   
     .section {
       padding: 80px 20px;
       width: 90%;
       max-width: 1400px;
       margin: 0 auto;
-
-    
     }
 
     .two-col {

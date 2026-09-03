@@ -234,10 +234,16 @@
 
     /* ── SECTIONS ── */
     .section {
+       --section-color: linear-gradient();
+      background: var(--section-color);
       padding: 80px 40px;
-      max-width: 1500px;
+      max-width: 100%;
       margin: 0 auto;
 
+    }
+    .section .section-inner {
+      max-width: 1400px;
+      margin: 0 auto;
     }
     .section-orange {
       --section-color: linear-gradient(135deg, var(--orange-light), var(--orange));
@@ -314,6 +320,7 @@
     }
     .char-inner h2 { color: var(--dark); margin-bottom: 50px; }
     .cards {
+      justify-content: center;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 30px;
