@@ -1,3 +1,37 @@
+/* =========================
+   MENU MOBILE
+========================= */
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.addEventListener("click", function (event) {
+
+    event.stopPropagation();
+
+    navLinks.classList.toggle("active");
+
+});
+
+
+/* =========================
+   ACCORDION
+========================= */
+
+const dropdown = document.querySelector(".dropdown");
+const dropdownBtn = document.querySelector(".dropdown-btn");
+
+dropdownBtn.addEventListener("click", function (event) {
+
+    event.stopPropagation();
+
+    dropdown.classList.toggle("active");
+
+});
+
+
+
+
 /* Accordion */
 
 const accordions =

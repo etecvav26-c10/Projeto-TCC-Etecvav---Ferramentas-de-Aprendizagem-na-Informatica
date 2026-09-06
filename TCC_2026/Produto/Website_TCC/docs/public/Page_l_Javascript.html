@@ -12,19 +12,62 @@
 <body>
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">
-      <div class="nav-logo">
-        <img src="./materiais/Logo_Preta.png"
-            style="height: 60px; width: auto;"
-            alt="Logo">
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html"  class="active">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
       </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="Introducao.html">Documentação</a></li>
-      <li><a href="Scratch_D.html" target="_blank">Ferramentas</a></li>
-      <li><a href="Guias.html" target="_blank">Guia para Iniciantes</a></li>
-    </ul>
-  </nav>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
   <!-- HERO -->
   <section class="hero">
@@ -57,9 +100,7 @@
           </p>
                     
           <br>
-          <a href="Ferramentas_B.html" target="_blank" class="btn-primary">
-            Quero aprender mais sobre outras linguagens
-          </a>
+          
         </div>   
       </div>
       <div class="hero-coluna">
@@ -91,7 +132,7 @@
   
     
       <div class="container-imagem">
-            <img src="./materiais/Imagem/java.jpg" alt="Infohub Logo" class="imagem">
+            <img src="./materiais/Imagem/javascript1.jpg" alt="Infohub Logo" class="imagem">
       </div>
     </div>
   </div>
@@ -116,7 +157,7 @@
      
         </div>
           <div class="container-imagem">
-                <img src="./materiais/Imagem/page_java_3jpg.jpg" alt="Infohub Logo" class="imagem">
+                <img src="./materiais/Imagem/javascript2.jpg" alt="Infohub Logo" class="imagem">
           </div>
       </div>
     </div>
@@ -177,7 +218,7 @@
     </div>
 
       <div class="container-imagem">
-            <img src="./materiais/Imagem/page_l_java_2.jpg" alt="Infohub Logo" class="imagem" style="width: 100%;">
+            <img src="./materiais/Imagem/Javascript3.jpg" alt="Infohub Logo" class="imagem" style="width: 100%;">
       </div>
     </div>
   </div>
@@ -191,7 +232,7 @@
         <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
         <section class="container-cards">
           <div class="ferramenta-card">
-            <a href="https://www.w3schools.com/" target="_blank">
+            <a href="https://developer.mozilla.org/en-US/" target="_blank">
 
               <img src="./materiais/fundos/MDN.jfif" class="ferramenta-bg" style="background-color: #000;">
 
@@ -216,7 +257,7 @@
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://codecombat.com/home" target="_blank">
+            <a href="https://javascript.info/" target="_blank">
 
               <img src="./materiais/fundos/javascript_info.png" class="ferramenta-bg"
                 style="background-color: #000;">
@@ -242,7 +283,7 @@
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://www.codecademy.com" target="_blank">
+            <a href="./Page_A_Codeacademy.html" target="_blank">
 
               <img src="./materiais/fundos/CodeAcademy.png" class="ferramenta-bg" style="background-color: #000;">
 
@@ -271,7 +312,7 @@
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://www.w3schools.com/" target="_blank">
+            <a href="./Page_A_W3Schools.html" target="_blank">
 
               <img src="./materiais/fundos/w3schools_fundo.jpg" class="ferramenta-bg" style="background-color: #000;">
 
@@ -298,7 +339,7 @@
 
           </div>
           <div class="ferramenta-card">
-            <a href="https://codecombat.com/home" target="_blank">
+            <a href="./Page_A_Exercism.html" target="_blank">
 
               <img src="./materiais/fundos/exercism.png" class="ferramenta-bg"
                 style="background-color: #000;">
@@ -364,7 +405,7 @@
           </div>
 
           <div class="ferramenta-card">
-
+          <a href="./Page_A_Codingame.html" target="_blank">
             <img src="./materiais/fundos/codingame.png" class="ferramenta-bg">
   
             <div class="ferramenta-overlay"></div>
@@ -386,11 +427,11 @@
               </div>
   
             </div>
-  
+          </a>
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://codecombat.com/home" target="_blank">
+            <a href="./Page_A_CodeCombat.html" target="_blank">
 
               <img src="./materiais/fundos/codehasprice_fundo.jpg" class="ferramenta-bg"
                 style="background-color: #000;">

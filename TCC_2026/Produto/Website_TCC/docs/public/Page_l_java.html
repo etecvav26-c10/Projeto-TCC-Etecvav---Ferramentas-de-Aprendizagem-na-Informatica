@@ -12,19 +12,62 @@
 <body>
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">
-      <div class="nav-logo">
-        <img src="./materiais/Logo_Preta.png"
-            style="height: 60px; width: auto;"
-            alt="Logo">
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html"  class="active">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
       </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="Introducao.html">Documentação</a></li>
-      <li><a href="Scratch_D.html" target="_blank">Ferramentas</a></li>
-      <li><a href="Guias.html" target="_blank">Guia para Iniciantes</a></li>
-    </ul>
-  </nav>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
   <!-- HERO -->
   <section class="hero">
@@ -57,9 +100,7 @@
           </p>
                     
           <br>
-          <a href="Ferramentas_B.html" target="_blank" class="btn-primary">
-            Quero aprender mais sobre outras linguagens
-          </a>
+          
         </div>   
       </div>
       <div class="hero-coluna">
@@ -258,6 +299,32 @@
             </a>
 
           </div>
+          <div class="ferramenta-card">
+            <a href="https://www.mooc.fi/en/" target="_blank">
+
+              <img src="./materiais/fundos/MOOC.fi.png" class="ferramenta-bg" style="background-color: #000;">
+
+              <div class="ferramenta-overlay"></div>
+
+              <div class="ferramenta-conteudo">
+
+                <img src="./materiais/logos/Mooc.fi.png" class="ferramenta-icone"
+                style="width:auto; height: 30px; padding-bottom:10px">
+
+                <h3>MOOC.fi</h3>
+
+                <div class="ferramenta-extra">
+
+                  <p>
+                    O MOOC.fi é uma plataforma de cursos online abertos da Universidade de Helsinque, na Finlândia. Você pode encontrar vários cursos de referência da área de programação aqui.
+                  </p>
+
+                </div>
+
+              </div>
+            </a>
+
+          </div>
         </section>
 
         <button class="carousel-btn next" aria-label="Próximo">&#8594;</button>
@@ -268,31 +335,55 @@
 <section>
   <div style="background: #000522;">
     <div class="section">
-      <h2 style="text-align: center;">JOGOS E WEBSITES PARA PRATICAR PYTHON</h2>
+      <h2 style="text-align: center;">PLATAFORMAS PARA PRATICAR JAVA</h2>
     </div>
 <div class="container-cards">
     <div class="carousel-wrapper">
         <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
         <section class="container-cards">
-          <div class="ferramenta-card">
-            <a href="https://www.w3schools.com/" target="_blank">
+         <div class="ferramenta-card">
+            <a href="./Page_A_Codewars.html" target="_blank">
 
-              <img src="./materiais/fundos/checkio.png" class="ferramenta-bg" style="background-color: #000;">
+              <img src="./materiais/fundos/codewars.png" class="ferramenta-bg"
+                style="background-color: #000;">
 
               <div class="ferramenta-overlay"></div>
 
               <div class="ferramenta-conteudo">
 
-                <img src="./materiais/logos/video-game.svg" class="ferramenta-icone">
-
-                <h3>Check.io</h3>
+                <img src="./materiais/logos/codewars.svg" class="ferramenta-icone"
+                style="width:auto; height: 30px; padding-bottom:10px">
+                <h3>CodeWars</h3>
 
                 <div class="ferramenta-extra">
 
                   <p>
-                    Check.io é uma plataforma de aprendizado online que oferece desafios e recursos para aprender
-                    a linguagem Python. É uma ótima ferramenta para iniciantes e desenvolvedores
-                    experientes.
+                    O Codewars é uma plataforma online de aprendizado e prática de programação baseada em desafios gamificados chamados de katas
+                  </p>
+
+                </div>
+
+              </div>
+            </a>
+          </div>
+          <div class="ferramenta-card">
+            <a href="./Page_A_LeetCode.html" target="_blank">
+
+              <img src="./materiais/fundos/leetcode.png" class="ferramenta-bg"
+                style="background-color: #000;">
+
+              <div class="ferramenta-overlay"></div>
+
+              <div class="ferramenta-conteudo">
+
+                <img src="./materiais/logos/leetcode.svg" class="ferramenta-icone"
+                style="width:auto; height: 70px;">
+                <h3>LeetCode</h3>
+
+                <div class="ferramenta-extra">
+
+                  <p>
+                    LeetCode é uma plataforma on-line com milhares de desafios de programação, usada para treinar algoritmos, estruturas de dados e se preparar para entrevistas técnicas em empresas como Google.
                   </p>
 
                 </div>
@@ -335,68 +426,6 @@
               </div>
             </a>
           </div>
-
-          <div class="ferramenta-card">
-            <a href="https://www.codecademy.com" target="_blank">
-
-              <img src="./materiais/fundos/tynker.jpg" class="ferramenta-bg" style="background-color: #000;">
-
-              <div class="ferramenta-overlay"></div>
-
-              <div class="ferramenta-conteudo">
-
-                <img src="./materiais/logos/tynker-seeklogo.svg" class="ferramenta-icone"
-                  style="width:auto; height: 30px; padding-bottom:10px">
-
-                <h3>Tynker</h3>
-
-                <div class="ferramenta-extra">
-
-                  <p>
-                    O Tynker é uma plataforma líder de aprendizado de programação voltada para crianças e jovens. Ela usa blocos visuais e jogos para ensinar lógica e códigos
-                  </p>
-
-                  <div class="ferramenta-info">
-                    <span>🌐 Multiplas Linguagens</span>
-                    <br>
-                    <span>🏷️ Gratuito</span>
-                  </div>
-
-                </div>
-
-              </div>
-            </a>
-          </div>
-
-          <div class="ferramenta-card">
-
-            <img src="./materiais/TFM_banner.png" class="ferramenta-bg">
-
-            <div class="ferramenta-overlay"></div>
-
-            <div class="ferramenta-conteudo">
-
-              <img src="./materiais/drone-tech-svgrepo-com.svg" class="ferramenta-icone">
-
-              <h3>The Farmer Was Replaced</h3>
-
-              <div class="ferramenta-extra">
-
-                <p>
-                  Jogo super interativo e complexo desenvolvido para aprender linguagem python
-                </p>
-
-                <div class="ferramenta-info">
-                  <span>🌐 Linguagem Python</span>
-                  <br>
-                  <span>🏷️ Pago</span>
-                  <br>
-                  <span>📂 Privado</span>
-                </div>
-
-              </div>
-
-            </div>
 
 
           </div>

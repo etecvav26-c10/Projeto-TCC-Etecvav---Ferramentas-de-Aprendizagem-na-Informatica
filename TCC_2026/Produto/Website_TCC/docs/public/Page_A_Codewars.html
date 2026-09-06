@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <link rel="icon" href="./materiais/Logo_Preta.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infohub - Codechef</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero"
+  style="--hero-color: rgba(10, 10, 10, 0.897);">
+
+    <!-- Carrossel de fundo -->
+    <div class="hero-carousel">
+
+      <div class="hero-slide active"
+        style="background-image:url('./materiais/Fundos_Page_A/Codewars.png')">
+      </div>
+    </div>
+    <!-- Conteúdo -->
+    <div class="hero-content">
+
+      <div class="hero-title">
+        <img src="./materiais/logos/codewars.svg"
+          style=" height: 150px; width: auto;">
+      </div>>
+
+      <p class="hero-subtitle">
+        O Codewars é uma plataforma educacional online voltada para programadores, onde você pode praticar<br> e aprimorar suas habilidades de codificação por meio de desafios de programação
+      </p>
+
+      <a href="https://www.codewars.com/" target="_blank" class="btn-primary">
+        Página Principal
+      </a>
+
+      <div class="hero-logos">
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/wifi-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Competições </p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/code-block-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Multiplas Linguagens</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/accessibility-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%)">
+          <p class="hero-titles" >Engajamento</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- O QUE É -->
+  <div class="section" style="--section-color: rgba(73, 5, 0, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>O que é a Codewars?</h2>
+
+      <p>
+        A plataforma <strong>Codewars</strong> é um ambiente online voltado para o
+        <strong>aprendizado e a prática de programação</strong>, utilizando desafios
+        chamados de <strong>kata</strong>. Esses desafios apresentam problemas que o
+        usuário deve resolver por meio de código, permitindo desenvolver habilidades
+        de lógica, raciocínio e resolução de problemas.
+      </p>
+
+      <p>
+        A Codewars oferece exercícios em diversas <strong>linguagens de programação</strong>,
+        como Python, JavaScript, Java, C#, C++, Ruby e outras. Os desafios possuem
+        diferentes níveis de dificuldade, permitindo que o usuário pratique conceitos
+        básicos e avance gradualmente para problemas mais complexos.
+      </p>
+
+      <p>
+        Além da resolução dos desafios, a plataforma permite visualizar e comparar
+        diferentes soluções desenvolvidas por outros usuários. Dessa forma, é possível
+        observar diferentes maneiras de resolver um mesmo problema e conhecer outras
+        formas de utilizar os recursos de uma linguagem de programação.
+      </p>
+
+        <br />
+        <a href="https://www.codewars.com/" class="btn-primary">Página da plataforma</a>
+      </div>
+      <div class="img-block" style="height:auto;">
+        <img src="./materiais/Imagens_Page_A/codewars1.png" class="imagem" alt="Exercism" style="height: 500px; border-radius: 10px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- COMO FUNCIONA -->
+  <div class="section" style="--section-color: rgba(73, 5, 0, 0.445);">
+    <div class="section-inner">
+      <div class="two-col reverse">
+        <div>
+          <div class="section-label">Funcionamento</div>
+          <h2>Como a plataforma funciona</h2>
+
+          <p>
+            A Codewars organiza suas atividades principalmente por meio dos <strong>kata</strong>,
+            que são desafios de programação que precisam ser solucionados pelo usuário.
+            Após escolher uma linguagem e um desafio, o estudante deve analisar o problema
+            apresentado e desenvolver uma solução utilizando código.
+          </p>
+
+          <p>
+            Os desafios são classificados por diferentes níveis de dificuldade. Conforme o
+            usuário resolve os exercícios, pode avançar para problemas mais complexos,
+            praticando conceitos como <strong>variáveis, estruturas condicionais,
+            funções, estruturas de repetição, algoritmos e manipulação de dados</strong>.
+          </p>
+
+          <p>
+            Depois de desenvolver uma solução, o código pode ser executado e testado para
+            verificar se atende aos requisitos do desafio. A plataforma também possibilita
+            consultar soluções de outros participantes, permitindo comparar diferentes
+            abordagens e compreender outras formas de estruturar um programa.
+          </p>
+          <br>
+        </div>
+        <div class="img-block" style="width: 100%; ">
+          <img src="./materiais/Imagens_Page_A/codewars2.png" alt="Infohub Logo" class="imagem" background-color:azure">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <div class="char-section">
+    <div class="char-inner">
+    <h2>Características da Codewars</h2>
+
+<div class="cards">
+
+  <div class="card">
+    <div class="card-icon">
+      <!-- code / programming icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 9l-3 3 3 3M16 9l3 3-3 3M14 5l-4 14"/>
+      </svg>
+    </div>
+
+          <h3>Desafios de Programação</h3>
+
+          <p>
+            A plataforma utiliza desafios de programação, chamados de
+            <strong>kata</strong>, como principal forma de aprendizado. Os exercícios
+            estimulam o usuário a analisar problemas, desenvolver soluções e praticar
+            conceitos de programação por meio da experiência prática.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <div class="card-icon">
+            <!-- programming languages icon -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 5h16v14H4zM8 9l-2 3 2 3M16 9l2 3-2 3M14 8l-4 8"/>
+            </svg>
+          </div>
+
+          <h3>Diversidade de Linguagens</h3>
+
+          <p>
+            A Codewars oferece desafios em diversas <strong>linguagens de
+            programação</strong>, permitindo que o usuário escolha a tecnologia que
+            deseja praticar. Isso possibilita desenvolver conhecimentos em diferentes
+            linguagens e aplicar conceitos de programação em variados contextos.
+          </p>
+        </div>
+
+
+        <div class="card">
+          <div class="card-icon">
+            <!-- compare / solutions icon -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 4h10v4H7zM5 16h6v4H5zM13 16h6v4h-6zM12 8v4M8 12h8"/>
+            </svg>
+          </div>
+
+          <h3>Comparação de Soluções</h3>
+
+          <p>
+            Após resolver um desafio, o usuário pode analisar soluções desenvolvidas
+            por outros participantes. Esse recurso permite conhecer diferentes formas
+            de resolver um mesmo problema e observar maneiras de melhorar a
+            <strong>organização, eficiência e clareza do código</strong>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- O QUE OFERECE -->
+  <div class="section" style="--section-color: rgba(73, 5, 0, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div class="img-block">
+        <img src="./materiais/Imagens_Page_A/codewars3.png" alt="W3schools">
+      </div>
+      <div> 
+        <div class="section-label">Recursos</div> 
+        <h2>O que a Codewars oferece</h2>
+        <p>
+          A Codewars oferece uma grande variedade de <strong>desafios práticos de
+          programação</strong>, permitindo que estudantes e desenvolvedores exercitem
+          seus conhecimentos por meio da resolução de problemas. Os exercícios estão
+          disponíveis em diversas linguagens e apresentam diferentes níveis de
+          dificuldade.
+        </p>
+
+        <p>
+          A plataforma também oferece recursos que incentivam a <strong>prática
+          contínua</strong>, permitindo que o usuário acompanhe sua evolução conforme
+          resolve novos desafios. A possibilidade de analisar soluções desenvolvidas
+          por outros participantes também contribui para conhecer diferentes técnicas
+          de programação e maneiras de solucionar um mesmo problema.
+        </p>
+
+        <p>
+          No contexto educacional, a Codewars pode ser utilizada como um recurso
+          complementar para atividades de programação, ajudando estudantes a colocar
+          em prática conceitos apresentados durante as aulas e a desenvolver
+          <strong>raciocínio lógico, capacidade de análise e resolução de problemas</strong>.
+        </p>
+        <br>
+
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+
+<script src="./Script.js"></script>
+</body>
+
+</html>

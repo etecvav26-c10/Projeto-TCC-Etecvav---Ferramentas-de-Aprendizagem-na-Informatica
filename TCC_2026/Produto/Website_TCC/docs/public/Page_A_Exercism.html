@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <link rel="icon" href="./materiais/Logo_Preta.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infohub - Exercism</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero"
+  style="--hero-color: rgba(255, 255, 255, 0.897);">
+
+    <!-- Carrossel de fundo -->
+    <div class="hero-carousel">
+
+      <div class="hero-slide active"
+        >
+      </div>
+    </div>
+    <!-- Conteúdo -->
+    <div class="hero-content">
+
+      <div class="hero-title">
+        <img src="./materiais/Logos_Page_A/Exercism.webp" alt="W3Schools Logo"
+          style="  height: 250px; width: auto;">
+      </div>
+
+      <p class="hero-subtitle" style="color: black;">
+        Plataforma de aprendizado de programação com exercicios, atividades e aulas sobre <br> diferentes linguagens de programação, como Python, C, C++, Java e JavaScript.
+      </p>
+
+      <a href="https://exercism.org/" target="_blank" class="btn-primary">
+        Página Principal
+      </a>
+
+      <div class="hero-logos">
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/wifi-svgrepo-com.svg"
+            style="height: 40px; filter: grayscale(100%);">
+          <p class="hero-titles" style="color: black;">Multiplas Linguagens</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/code-block-svgrepo-com.svg"
+            style="height: 40px; filter: grayscale(100%);">
+          <p class="hero-titles" style="color: black;">Desafios de Programação</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/accessibility-svgrepo-com.svg"
+            style="height: 40px; filter: grayscale(100%);;">
+          <p class="hero-titles" style="color: black;">Competições e interação</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- O QUE É -->
+  <div class="section" style="--section-color: rgba(0, 64, 73, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>O que é a Exercism?</h2>
+
+        <p> A <strong>Exercism</strong> é uma plataforma online voltada principalmente para o <strong>aprendizado e a prática de programação</strong>. Seu objetivo é oferecer um ambiente no qual estudantes e desenvolvedores possam aprimorar suas habilidades por meio da resolução de exercícios práticos. A plataforma reúne atividades para diferentes níveis de conhecimento e permite que o usuário pratique programação utilizando diversas linguagens. </p>
+
+        <p> Na área de programação, a plataforma disponibiliza exercícios em diversas <strong>linguagens de programação</strong>, incluindo <strong>Python, JavaScript, Java, C, C++, C#, Go e Rust</strong>, entre outras. Os exercícios abordam diferentes conceitos e práticas de programação, permitindo que o estudante desenvolva gradualmente sua capacidade de compreender problemas, escrever código e criar soluções. </p>
+
+        <p> A Exercism utiliza a <strong>prática e a resolução de exercícios como base para o aprendizado</strong>. O estudante recebe problemas de programação que precisam ser solucionados por meio da escrita de código e pode executar suas soluções para verificar seu funcionamento. Além da avaliação automatizada, a plataforma também possui um sistema de mentoria, no qual usuários podem receber orientações e sugestões para melhorar suas soluções e suas práticas de programação. </p>
+
+        <p> Outro aspecto da plataforma é sua utilização como <strong>ferramenta complementar ao ensino de programação</strong>. Professores e educadores podem utilizar os exercícios da Exercism como atividades práticas para reforçar conceitos apresentados em aula, enquanto os estudantes podem acessar os desafios de forma independente para desenvolver suas habilidades. Dessa maneira, a Exercism contribui para o aprendizado por meio da <strong>prática constante, da análise de soluções e do desenvolvimento gradual das habilidades de programação</strong>. </p>
+
+        <br />
+        <a href="https://exercism.org/" class="btn-primary">Página da plataforma</a>
+      </div>
+      <div class="img-block" style="height:auto;">
+        <img src="./materiais/Imagens_Page_A/exercism.png" alt="Exercism" style="height: 800px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- COMO FUNCIONA -->
+  <div class="section" style="--section-color: rgba(0, 64, 73, 0.445);">
+    <div class="section-inner">
+      <div class="two-col reverse">
+        <div>
+          <div class="section-label">Funcionamento</div>
+          <h2>Como a plataforma funciona</h2>
+
+          <p>
+            O funcionamento da <strong>Exercism</strong> é baseado na disponibilização de <strong>exercícios práticos de programação</strong>, organizados de acordo com diferentes linguagens. O estudante escolhe uma linguagem que deseja praticar e pode seguir uma sequência de atividades que apresenta diferentes conceitos e situações de programação, permitindo desenvolver suas habilidades progressivamente.
+          </p>
+
+          <p>
+            Durante os estudos, o usuário recebe problemas que precisam ser solucionados por meio da escrita de código. Os exercícios podem abordar conceitos como <strong>variáveis, estruturas de controle, funções, orientação a objetos, algoritmos e estruturas de dados</strong>, dependendo da linguagem e da atividade escolhida. O estudante deve analisar cada problema, desenvolver uma solução e executar o código para verificar seu funcionamento.
+          </p>
+
+          <p>
+            Após desenvolver uma solução, o usuário pode <strong>enviar o código para avaliação</strong> e verificar se ele atende aos requisitos do exercício. A plataforma também permite que o estudante observe e compare diferentes formas de solucionar um mesmo problema. Esse processo pode ajudar a compreender outras abordagens e identificar maneiras de tornar o código mais organizado, legível e eficiente.
+          </p>
+
+          <p>
+            Um dos diferenciais da <strong>Exercism</strong> é a possibilidade de receber <strong>feedback de mentores e da comunidade</strong>. Os estudantes podem compartilhar suas soluções e receber orientações sobre aspectos relacionados à implementação e às práticas de programação. Dessa forma, o aprendizado não depende apenas da avaliação automática, mas também da análise e discussão sobre as soluções desenvolvidas.
+          </p>
+
+          <p>
+            A <strong>Exercism</strong> também pode ser utilizada como recurso complementar ao ensino de programação. Professores e educadores podem indicar exercícios para que os estudantes pratiquem determinados conceitos, enquanto os alunos podem utilizar a plataforma de forma independente para revisar conteúdos e desenvolver suas habilidades. Dessa maneira, seu funcionamento combina <strong>exercícios práticos, avaliação de código, comparação de soluções e orientação</strong>, proporcionando um ambiente voltado ao desenvolvimento contínuo da programação.
+          </p>
+
+          <br />
+        </div>
+        <div class="img-block" style="width: 100%; ">
+          <img src="./materiais/Imagens_Page_A/execism3.svg" alt="Infohub Logo" class="imagem" style="height: 1000px; background-color:azure">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <div class="char-section">
+    <div class="char-inner">
+    <h2>Características da Exercism</h2> 
+      <div class="cards">
+
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- programming languages icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h16V6H4zm3 3h3v2H7V9zm0 4h5v2H7v-2zm7-4h3v2h-3V9zm0 4h3v2h-3v-2z"/> 
+            </svg> 
+          </div> 
+          <h3>Diversidade de Linguagens</h3> 
+          <p> 
+            A Exercism oferece exercícios para diversas linguagens de programação, permitindo que o estudante escolha quais
+            tecnologias deseja aprender ou aprimorar. Essa variedade possibilita praticar diferentes conceitos e desenvolver
+            habilidades que podem ser aplicadas em diferentes contextos de programação.
+          </p> 
+        </div>
+
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- coding practice icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M8.7 16.6 3.1 11l5.6-5.6L10.1 7l1.4 1.4-4.2 4.2 4.2 4.2-1.4 1.4zm6.6 0-1.4-1.4 4.2-4.2-4.2-4.2 1.4-1.4 5.6 5.6-5.6 5.6zM13.4 3l1.9.5-4.7 17-1.9-.5 4.7-17z"/> 
+            </svg> 
+          </div> 
+          <h3>Exercícios Práticos</h3> 
+          <p> 
+            A plataforma utiliza exercícios como principal recurso para a prática da programação. Os estudantes precisam analisar
+            problemas e desenvolver suas próprias soluções, permitindo aplicar conceitos aprendidos e aprimorar habilidades como
+            lógica de programação, organização do código e resolução de problemas.
+          </p> 
+        </div>
+
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- feedback / mentoring icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v10h4v1.2L9.6 16H20V6H4zm3 3h10v2H7V9zm0 4h7v2H7v-2z"/> 
+            </svg> 
+          </div> 
+          <h3>Mentoria e Feedback</h3> 
+          <p> 
+            A Exercism permite que os estudantes recebam orientações e comentários sobre suas soluções por meio de seu sistema
+            de mentoria e da comunidade. Esse recurso possibilita conhecer diferentes formas de resolver um problema e compreender
+            como o código pode ser aprimorado em aspectos como organização, clareza e boas práticas de programação.
+          </p> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- O QUE OFERECE -->
+  <div class="section" style="--section-color: rgb(1, 1, 31);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div class="img-block">
+        <img src="./materiais/Imagens_Page_A/exercism2.jpg" alt="W3schools" style="height: 800px;">
+      </div>
+      <div> 
+        <div class="section-label">Recursos</div> 
+        <h2>O que a Exercism oferece?</h2>
+
+        <p>
+          Para os estudantes, a <strong>Exercism</strong> oferece uma variedade de recursos voltados principalmente para o <strong>aprendizado e a prática de programação</strong>. A plataforma disponibiliza exercícios em diversas linguagens, permitindo que o estudante escolha aquelas que deseja aprender ou aprimorar. As atividades abordam diferentes conceitos de programação e incentivam o desenvolvimento de soluções por meio da prática.
+        </p>
+
+        <p>
+          A plataforma também oferece <strong>execução e avaliação de código, exercícios práticos e comparação entre soluções</strong>, permitindo que os estudantes testem seus programas e analisem diferentes maneiras de resolver um mesmo problema. Esses recursos podem ajudar a identificar erros, compreender novas abordagens e desenvolver hábitos relacionados à escrita de código mais organizado e eficiente.
+        </p>
+
+        <p>
+          Outro recurso oferecido pela <strong>Exercism</strong> é o sistema de <strong>mentoria e feedback</strong>. Os estudantes podem receber comentários e orientações sobre suas soluções, permitindo compreender não apenas se o código funciona, mas também como ele pode ser aprimorado. Esse contato com diferentes formas de solucionar problemas pode contribuir para o desenvolvimento do raciocínio e das práticas de programação.
+        </p>
+
+        <p>
+          Para professores e educadores, a <strong>Exercism</strong> pode funcionar como um <strong>recurso complementar ao ensino de programação</strong>. Os exercícios podem ser utilizados para propor atividades práticas relacionadas aos conteúdos trabalhados em aula, oferecendo aos estudantes oportunidades para aplicar seus conhecimentos. Dessa forma, a plataforma pode contribuir para o aprendizado por meio da <strong>prática, experimentação, análise de código e troca de conhecimentos</strong>.
+        </p>
+
+        <br />
+
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+
+<script src="./Script.js"></script>
+</body>
+
+</html>

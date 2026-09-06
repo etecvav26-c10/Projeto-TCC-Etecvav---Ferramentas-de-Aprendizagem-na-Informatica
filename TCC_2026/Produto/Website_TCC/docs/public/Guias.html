@@ -13,17 +13,62 @@
 <body>
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">
-      <div class="nav-logo">
-        <img src="./materiais/Logo_Preta.png" style="height: 60px; width: auto;" alt="Logo">
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
       </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="Introducao.html">Documentação</a></li>
-      <li><a href="Scratch_D.html" target="_blank">Ferramentas</a></li>
-      <li><a href="Ferramentas_B.html" target="_blank">Guia para Iniciantes</a></li>
-    </ul>
-  </nav>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html" class="active">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
   <!-- HERO -->
   <section class="hero">
@@ -125,7 +170,7 @@
     </div>
     <!-- Cards-->
     <div class="carousel-wrapper">
-      <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
+      
       <section class="container-cards">
         <div class="ferramenta-card">
           <a href="./Page_A_scratch.html" target="_blank">
@@ -197,36 +242,29 @@
           </a>
         </div>
         <div class="ferramenta-card">
-          <a href="./Page_A_CodeAi.html" target="_blank">
-        
-            <img src="./materiais/fundos/Codeai.png"
-                 class="ferramenta-bg"
-                 style="background-color: #000;">
-        
-            <div class="ferramenta-overlay"></div>
-        
-            <div class="ferramenta-conteudo">
-        
-              <img src="./materiais/logos/codeai-logo.svg"
-                   class="ferramenta-icone"
-                   style="width: auto; height: 30px; padding-bottom: 10px;">
-        
-              <h3>Code Ai</h3>
-        
-              <div class="ferramenta-extra">
-        
-                <p>
-                  Code Ai é uma plataforma de aprendizado livre que oferece vídeos,
-                  tutoriais e recursos para aprender sobre informática e o uso da
-                  inteligência artificial. Também oferece informações sobre o mercado
-                  de trabalho e como se preparar para ele.
-                </p>
-        
-              </div>
-        
+        <a href="./Page_A_Codingame.html" target="_blank">
+          <img src="./materiais/fundos/codingame.png" class="ferramenta-bg">
+
+          <div class="ferramenta-overlay"></div>
+
+          <div class="ferramenta-conteudo">
+
+            <img src="./materiais/logos/codingame_01.svg" class="ferramenta-icone"
+              style="width:auto; height: 30px; padding-bottom:10px">
+
+            <h3>CodinGame</h3>
+
+            <div class="ferramenta-extra">
+
+              <p>
+                CodingGame é uma plataforma de desafios onde os usuários podem resolver problemas em diversas Linguagens
+                de programação enquanto veem seus resultados em tempo real.
+              </p>
+
             </div>
-        
-          </a>
+
+          </div>
+        </a>
         </div>
         
         
@@ -272,7 +310,7 @@
 
 
       </section>
-      <button class="carousel-btn next" aria-label="Próximo">&#8594;</button>
+      
     </div>
   </div>
 
@@ -315,7 +353,7 @@
     </div>
     <!-- Cards-->
     <div class="carousel-wrapper">
-      <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
+      
       <section class="container-cards">
         <div class="ferramenta-card">
           <a href="./Page_A_W3Schools.html" target="_blank">
@@ -397,32 +435,33 @@
           </div>
         </a>
         </div>
-
+        
         <div class="ferramenta-card">
-        <a href="./Page_A_Codingame.html" target="_blank">
-          <img src="./materiais/fundos/codingame.png" class="ferramenta-bg">
+            <a href="https://codecombat.com/home" target="_blank">
 
-          <div class="ferramenta-overlay"></div>
+              <img src="./materiais/fundos/exercism.png" class="ferramenta-bg"
+                style="background-color: #000;">
 
-          <div class="ferramenta-conteudo">
+              <div class="ferramenta-overlay"></div>
 
-            <img src="./materiais/logos/codingame_01.svg" class="ferramenta-icone"
-              style="width:auto; height: 30px; padding-bottom:10px">
+              <div class="ferramenta-conteudo">
 
-            <h3>CodinGame</h3>
+                <img src="./materiais/logos/exercism.svg" class="ferramenta-icone">
 
-            <div class="ferramenta-extra">
+                <h3>Exercism</h3>
 
-              <p>
-                CodingGame é uma plataforma de desafios onde os usuários podem resolver problemas em diversas Linguagens
-                de programação enquanto veem seus resultados em tempo real.
-              </p>
+                <div class="ferramenta-extra">
 
-            </div>
+                  <p>
+                    Exercism é uma plataforma de aprendizado de programação que oferece exercícios práticos em várias linguagens, incluindo C#. Os usuários podem resolver desafios e receber feedback da comunidade.
+                  </p>
 
+                </div>
+
+              </div>
+            </a>
           </div>
-        </a>
-        </div>
+        
         <div class="ferramenta-card">
 
           <img src="./materiais/fundos/codechef.jpg" class="ferramenta-bg">
@@ -487,7 +526,7 @@
       <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
     </div>
   </footer>
-  <script src="./Hub_Script.js"></script>
+  <script src="./Script.js"></script>
   <script>
     // Faz os botões de seta rolarem a trilha de cards
     document.querySelectorAll('.carousel-wrapper').forEach((wrapper) => {
@@ -514,7 +553,9 @@
       track.addEventListener('scroll', updateButtons);
       window.addEventListener('resize', updateButtons);
       updateButtons();
+
     });
+    
   </script>
 </body>
 

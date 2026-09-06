@@ -38,20 +38,62 @@
 <body>
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">
-      <div class="nav-logo">
-        <img src="./materiais/Logo_Preta.png"
-            style="height: 60px; width: auto;"
-            alt="Logo">
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
       </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="https://scratchbrasil.org.br/o-que-e-scratch/" target="_blank">Site Oficial</a></li>
-      <li><a href="./Scratch_D.html" target="_blank">Documentação</a></li>
-      <li><a href="https://www.scratchfoundation.org/home" target="_blank">Fundação Scratch</a></li>
-      <li><a href="./index.html" target="_blank">Hub Principal</a></li>
-    </ul>
-  </nav>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
   <!-- HERO -->
   <section class="hero"

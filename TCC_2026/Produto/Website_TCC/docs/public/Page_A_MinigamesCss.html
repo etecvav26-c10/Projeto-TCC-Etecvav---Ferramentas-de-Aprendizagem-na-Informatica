@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <link rel="icon" href="./materiais/Logo_Preta.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infohub - Minigames CSS
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Fascinate+Inline&family=Limelight&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<style>
+  .logo-checkio {
+  width: 1000px;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.logo-checkio span {
+  color: #ffffff;
+
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+
+  letter-spacing: -1.5px;
+
+  white-space: nowrap;
+}
+</style>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero"
+  style="--hero-color: rgba(4, 78, 56, 0.692);">
+
+    <!-- Carrossel de fundo -->
+    <div class="hero-carousel">
+
+      <div class="hero-slide active"
+      style="background-image:url('./materiais/Fundos_Page_A/Minigames.jfif')">>
+      </div>
+    </div>
+    <!-- Conteúdo -->
+    <div class="hero-content">
+
+      <div class="hero-title">
+        <div class="logo-checkio">
+        <span>Minigames CSS</span>
+        </div>
+      </div>
+
+      <p class="hero-subtitle">
+        Minigames voltados para praticar a linguagem CSS por meio de jogos simples<br> disponiveis na web gratuitamente
+      </p>
+
+      <div class="hero-logos">
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/wifi-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%)">
+          <p class="hero-titles">Interativos</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/code-block-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%) ">
+          <p class="hero-titles ">Disponiveis na Web</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/accessibility-svgrepo-com.svg"
+            style="height: 40px; filter: invert(100%);">
+          <p class="hero-titles ">Gratuitos</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- O QUE É -->
+  <div class="section" style="--section-color: rgba(1, 41, 4, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>Flexbox Froggy</h2>
+
+        <p>
+          O <strong>Flexbox Froggy</strong> é um jogo online voltado para o
+          <strong>aprendizado de CSS</strong>, utilizando uma proposta interativa
+          para ensinar como funciona o sistema de <strong>Flexbox</strong>.
+          Durante o jogo, o usuário precisa utilizar propriedades do CSS para
+          organizar elementos na página e ajudar os personagens do jogo a
+          chegarem aos locais indicados.
+        </p>
+      
+        <p>
+          O jogo apresenta diferentes desafios em que os sapos aparecem em uma
+          área organizada em linhas e colunas. Para completar cada fase, o
+          jogador deve escrever comandos CSS utilizando propriedades do
+          <strong>Flexbox</strong>, como <strong>justify-content, align-items,
+          flex-direction e flex-wrap</strong>. Conforme os desafios avançam,
+          novas propriedades e situações de posicionamento são apresentadas.
+        </p>
+      
+        <p>
+          O jogo web serve de ótima forma para treinar CSS de uma forma mais engajada, propondo desafios mais dificeis para os jogadores com as fases e os forçando a entender a linguagem.
+        </p>
+        <br>
+
+        <a href="https://flexboxfroggy.com/" class="btn-primary">Flexbox Froggy</a>
+      </div>
+      <div class="img-block" style=" margin-right: -100px;">
+        <img src="./materiais/Imagens_Page_A/minigame_froggy.jpg" alt="Code Chef" style="width: 100%; height: 600px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- COMO FUNCIONA -->
+  <div class="section" style="--section-color: rgba(89, 122, 4, 0.445);">
+    <div class="section-inner">
+      <div class="two-col reverse">
+        <div>
+          <div class="section-label">Funcionamento</div>
+          <h2>O que é o CSS Grid Garden?</h2>
+
+            <p>
+              O <strong>CSS Grid Garden</strong> é um jogo online criado para ensinar
+              conceitos relacionados ao <strong>CSS Grid</strong>, um sistema
+              utilizado para organizar elementos em linhas e colunas dentro de uma
+              página web. No jogo, o usuário precisa utilizar comandos CSS para
+              organizar um jardim e fazer com que as plantas recebam a quantidade
+              adequada de água.
+            </p>
+          
+            <p>
+              Dentro do jogo o usuário deve organizar o Grid de uma fazenda utilizando comandos de Grid CSS e tornando a configuração mais complexa e elaborada com passar do tempo. Assim sendo incentivado a evoluir nos comandos.
+            </p>
+          
+            <p>
+              O CSS Grid Garden transforma o aprendizado de <strong>layout e
+              posicionamento em CSS</strong> em uma atividade prática e interativa.
+              Como o resultado dos comandos aparece diretamente no jardim, o usuário
+              consegue visualizar as consequências de cada alteração no código,
+              facilitando a compreensão de como linhas, colunas e áreas podem ser
+              utilizadas para construir layouts de páginas web.
+            </p>
+
+          <br />
+          <a href="https://cssgridgarden.com/" class="btn-primary">Grid Garden</a>
+        </div>
+        <div class="img-block" style=" margin-left: -100px;">
+          <img src="./materiais/Imagens_Page_A/minigame_garden.png" alt="Code Chef" style="width: 100%; height: 600px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="--section-color: rgba(1, 36, 41, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>O que é o Flexbox Defense?</h2>
+
+        <p>
+          O <strong>Flexbox Defense</strong> é um jogo online que utiliza
+          conceitos de <strong>CSS Flexbox</strong> para ensinar posicionamento
+          e organização de elementos de uma página web. O jogo apresenta uma
+          situação inspirada em jogos de defesa, na qual o jogador precisa
+          posicionar torres corretamente para impedir que os inimigos avancem
+          pelo caminho.
+        </p>
+      
+        <p>
+          Para completar as fases, o usuário precisa escrever propriedades CSS
+          relacionadas ao <strong>Flexbox</strong>, utilizando os comandos para
+          controlar a posição e o alinhamento das torres. Entre os conceitos
+          trabalhados estão propriedades como <strong>justify-content,
+          align-items e flex-direction</strong>. Cada fase apresenta um novo
+          desafio de organização, fazendo com que o jogador precise observar o
+          espaço disponível e ajustar o código para alcançar o posicionamento
+          desejado.
+        </p>
+        <br>
+
+        <a href="http://www.flexboxdefense.com/" class="btn-primary">Flexbox Defense</a>
+      </div>
+      <div class="img-block" style=" margin-right: -100px;">
+        <img src="./materiais/Imagens_Page_A/minigame_defense.png" alt="Code Chef" style="width: 100%; height: 600px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <div class="char-section">
+    <div class="char-inner">
+      <h2>Características em Comum</h2> 
+      <div class="cards">
+      
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- interactive learning icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm1 14h-2v-2h2v2zm2.1-6.8-.9.9c-.7.6-1.2 1.1-1.2 2.4h-2c0-1.5.5-2.4 1.5-3.2l1.1-1c.4-.3.6-.7.6-1.2a2.2 2.2 0 0 0-4.3-.5l-1.9-.6A4.2 4.2 0 0 1 16.2 8c0 .9-.4 1.6-1.1 2.2z"/> 
+            </svg> 
+          </div> 
+      
+          <h3>Aprendizado Interativo</h3> 
+      
+          <p> 
+            Os três jogos utilizam uma abordagem <strong>interativa e prática</strong>
+            para ensinar conceitos de CSS. Em vez de apenas apresentar explicações
+            teóricas, eles permitem que o usuário escreva comandos e observe
+            diretamente os resultados dentro do próprio jogo, facilitando a
+            compreensão dos conteúdos.
+          </p> 
+        </div>
+      
+      
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- CSS / coding icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h14V6H5zm3 3 2 2-2 2-1.4-1.4.6-.6-.6-.6L8 9zm5 0h3v2h-3V9zm0 4h3v2h-3v-2z"/> 
+            </svg> 
+          </div> 
+      
+          <h3>Prática de CSS</h3> 
+      
+          <p> 
+            As atividades são baseadas na <strong>utilização de propriedades CSS</strong>
+            para solucionar situações apresentadas nos jogos. Os usuários podem
+            praticar conceitos relacionados ao posicionamento, alinhamento e
+            organização de elementos, desenvolvendo uma compreensão mais prática
+            sobre a criação de layouts para páginas web.
+          </p> 
+        </div>
+      
+      
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- progression / levels icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M4 19h4v-5H4v5zm6 0h4V9h-4v10zm6 0h4V4h-4v15zM3 21h18v-2H3v2z"/> 
+            </svg> 
+          </div> 
+      
+          <h3>Desafios Progressivos</h3> 
+      
+          <p> 
+            Os jogos apresentam uma sequência de <strong>desafios com diferentes
+            níveis de complexidade</strong>. Conforme o usuário avança, novas
+            propriedades e situações são apresentadas, permitindo que os conceitos
+            sejam praticados gradualmente e que o estudante desenvolva suas
+            habilidades ao longo das atividades.
+          </p> 
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+
+
+  <!-- O QUE OFERECE -->
+  <div class="section" style="--section-color: rgba(1, 41, 4, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div class="img-block">
+        <img src="./materiais/Imagens_Page_A/Minigames4.jpg" alt="W3schools" style="height: 800px;">
+      </div>
+      <div> 
+        <div class="section-label">Recursos</div> 
+        <h2>O que é possível aprender e utilizar com eles?</h2>
+
+        <p>
+          <strong>Flexbox Froggy, CSS Grid Garden e Flexbox Defense</strong> podem
+          ser utilizados para aprender conceitos fundamentais de <strong>CSS e
+          desenvolvimento de páginas web</strong>. Por meio dos desafios, o
+          estudante pode compreender como diferentes propriedades do CSS
+          modificam a posição, o alinhamento e a organização dos elementos
+          presentes em uma página.
+        </p>
+
+        <p>
+          Os jogos são especialmente úteis para aprender conceitos relacionados
+          a <strong>Flexbox e CSS Grid</strong>, dois recursos importantes para
+          a criação de layouts. Durante as atividades, o estudante pode praticar
+          propriedades relacionadas ao alinhamento, direção, distribuição e
+          posicionamento de elementos, observando visualmente o resultado de
+          cada comando utilizado.
+        </p>
+
+        <p>
+          Outro conhecimento desenvolvido por essas ferramentas é a capacidade
+          de <strong>interpretar problemas e encontrar soluções utilizando
+          código</strong>. Para avançar nas fases, o usuário precisa compreender
+          o objetivo apresentado, identificar quais propriedades CSS podem ser
+          utilizadas e testar diferentes possibilidades até encontrar uma
+          solução adequada. Esse processo contribui para o desenvolvimento do
+          raciocínio lógico e da autonomia na programação.
+        </p>
+
+        <p>
+          Os três jogos também podem ser utilizados como <strong>recursos
+          complementares em aulas de desenvolvimento web</strong>. Professores
+          podem utilizá-los para apresentar novos conceitos, propor atividades
+          práticas ou permitir que os estudantes revisem conteúdos de maneira
+          mais interativa. Por serem baseados em desafios curtos e visuais, eles
+          podem facilitar a compreensão de conceitos que inicialmente podem
+          parecer abstratos.
+        </p>
+
+
+        <br />
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+
+<script src="./Script.js"></script>
+</body>
+
+</html>

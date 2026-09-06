@@ -12,19 +12,62 @@
 <body>
   <!-- NAV -->
   <nav>
-    <div class="nav-logo">
-      <div class="nav-logo">
-        <img src="./materiais/Logo_Preta.png"
-            style="height: 60px; width: auto;"
-            alt="Logo">
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html"  class="active">SQL</a>
       </div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="Introducao.html">Documentação</a></li>
-      <li><a href="Scratch_D.html" target="_blank">Ferramentas</a></li>
-      <li><a href="Guias.html" target="_blank">Guia para Iniciantes</a></li>
-    </ul>
-  </nav>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
 
   <!-- HERO -->
   <section class="hero">
@@ -57,9 +100,7 @@
           </p>
                     
           <br>
-          <a href="Ferramentas_B.html" target="_blank" class="btn-primary">
-            Quero aprender mais sobre outras linguagens
-          </a>
+          
         </div>   
       </div>
       <div class="hero-coluna">
@@ -82,7 +123,7 @@
       </div>
     
       <div class="container-imagem">
-            <img src="./materiais/Imagem/java.jpg" alt="Infohub Logo" class="imagem">
+            <img src="./materiais/Imagem/sql1.jpg" alt="Infohub Logo" class="imagem">
       </div>
     </div>
   </div>
@@ -101,7 +142,7 @@
           </p> 
           </div>
           <div class="container-imagem">
-                <img src="./materiais/Imagem/page_java_3jpg.jpg" alt="Infohub Logo" class="imagem">
+                <img src="./materiais/Imagem/Sql_1.jpg" alt="Infohub Logo" class="imagem">
           </div>
       </div>
     </div>
@@ -148,36 +189,36 @@
          </div>
     
       <div class="container-imagem">
-            <img src="./materiais/Imagem/page_l_java_2.jpg" alt="Infohub Logo" class="imagem" style="width: 100%;">
+            <img src="./materiais/Imagem/sql3.jpg" alt="Infohub Logo" class="imagem" style="width: 100%;">
       </div>
     </div>
   </div>
 <section>
   <div style="background: #000522;">
     <div class="section">
-      <h2 style="text-align: center;">PLATAFORMAS PARA APRENDER PYTHON</h2>
+      <h2 style="text-align: center;">PLATAFORMAS PARA APRENDER SQL</h2>
     </div>
-<div class="container-cards">
+  <div class="container-cards">
     <div class="carousel-wrapper">
         <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
         <section class="container-cards">
           <div class="ferramenta-card">
-            <a href="https://www.w3schools.com/" target="_blank">
+            <a href="https://sqlbolt.com/" target="_blank">
 
-              <img src="./materiais/fundos/learn_python.png" class="ferramenta-bg" style="background-color: #000;">
+              <img src="./materiais/fundos/sqlbolt.jpg" class="ferramenta-bg" style="background-color: #000;">
 
               <div class="ferramenta-overlay"></div>
 
               <div class="ferramenta-conteudo">
 
-                <img src="./materiais/logos/codegym_.svg" class="ferramenta-icone">
+                <img src="./materiais/logos/SQL bolt.png" style= "filter:none"class="ferramenta-icone">
 
-                <h3>CodeGym</h3>
+                <h3>SQL Bolt</h3>
 
                 <div class="ferramenta-extra">
 
                   <p>
-                    O CodeGym é uma plataforma de ensino online focada em programação Java, conhecida por sua abordagem prática e gamificada. Criada para levar estudantes do zero ao nível de um desenvolvedor júnior
+                    O SQLBolt é um site gratuito e interativo criado para ensinar a linguagem SQL através de lições e exercicios disponibilizados no site.
                   </p>
 
                 </div>
@@ -187,23 +228,23 @@
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://codecombat.com/home" target="_blank">
+            <a href="https://sqlzoo.net/wiki/SQL_Tutorial" target="_blank">
 
-              <img src="./materiais/fundos/python_institute.jpg" class="ferramenta-bg"
+              <img src="./materiais/fundos/sqlzoo.png" class="ferramenta-bg"
                 style="background-color: #000;">
 
               <div class="ferramenta-overlay"></div>
 
               <div class="ferramenta-conteudo">
 
-                <img src="./materiais/logos/oracle_.svg" class="ferramenta-icone">
+                <img src="./materiais/logos/Sqlzoo.svg" class="ferramenta-icone">
 
-                <h3>Oracle Learning</h3>
+                <h3>SQL Zoo</h3>
 
                 <div class="ferramenta-extra">
 
                   <p>
-                    O Python Institute (OpenEDG Python Institute) é uma iniciativa sem fins lucrativos da OpenEDG criada para promover o aprendizado da linguagem Python e o desenvolvimento profissional.
+                    O SQL Zoo é uma plataforma online que oferece tutoriais e exercícios interativos para aprender SQL, permitindo que os usuários pratiquem consultas em bancos de dados simulados.
                   </p>
 
                 </div>
@@ -213,36 +254,32 @@
           </div>
 
           <div class="ferramenta-card">
-            <a href="https://www.codecademy.com" target="_blank">
+        <a href="./Page_A_KhanAcademy.html" target="_blank">
+          <img src="./materiais/fundos/Khan_academy.jpg" class="ferramenta-bg">
 
-              <img src="./materiais/fundos/CodeAcademy.png" class="ferramenta-bg" style="background-color: #000;">
+          <div class="ferramenta-overlay"></div>
 
-              <div class="ferramenta-overlay"></div>
+          <div class="ferramenta-conteudo">
 
-              <div class="ferramenta-conteudo">
+            <img src="./materiais/logos/khan-academy.svg" class="ferramenta-icone">
 
-                <img src="./materiais/logos/Codecademy.svg" class="ferramenta-icone"
-                  style="width:auto; height: 30px; padding-bottom:10px">
+            <h3>Khan Academy</h3>
 
-                <h3>CodeAcademy</h3>
+            <div class="ferramenta-extra">
 
-                <div class="ferramenta-extra">
+              <p>
+                A Khan Academy é uma plataforma educacional de uso gratuito que fornece diversos cursos, tanto de
+                programação quanto de outras áreas da educação.
+              </p>
 
-                  <p>
-                    CodeAcademy é uma plataforma em inglês a qual oferece diversos cursos gratuitos para os usuários
-                    aprenderem e se especializarem em linguagens de Programação.
-                  </p>
+            </div>
 
-
-
-                </div>
-
-              </div>
-            </a>
           </div>
+        </a>
+        </div>
 
           <div class="ferramenta-card">
-            <a href="https://www.w3schools.com/" target="_blank">
+            <a href="./Page_A_W3Schools.html" target="_blank">
 
               <img src="./materiais/fundos/w3schools_fundo.jpg" class="ferramenta-bg" style="background-color: #000;">
 
@@ -275,6 +312,94 @@
   </div>
 </section>
 <br>
+<section>
+  <div style="background: #000522;">
+    <div class="section">
+      <h2 style="text-align: center;">PLATAFORMAS PARA PRATICAR SQL</h2>
+    </div>
+  <div class="container-cards">
+    <div class="carousel-wrapper">
+        <button class="carousel-btn prev" aria-label="Anterior">&#8592;</button>
+        <section class="container-cards">
+          <div class="ferramenta-card">
+            <a href="./Page_A_LeetCode.html" target="_blank">
+
+              <img src="./materiais/fundos/leetcode.png" class="ferramenta-bg"
+                style="background-color: #000;">
+
+              <div class="ferramenta-overlay"></div>
+
+              <div class="ferramenta-conteudo">
+
+                <img src="./materiais/logos/leetcode.svg" class="ferramenta-icone"
+                style="width:auto; height: 70px;">
+                <h3>LeetCode</h3>
+
+                <div class="ferramenta-extra">
+
+                  <p>
+                    LeetCode é uma plataforma on-line com milhares de desafios de programação, usada para treinar algoritmos, estruturas de dados e se preparar para entrevistas técnicas em empresas como Google.
+                  </p>
+
+                </div>
+
+              </div>
+            </a>
+          </div>
+
+          <div class="ferramenta-card">
+            <a href="https://mystery.knightlab.com/" target="_blank">
+
+              <img src="./materiais/fundos/Sql mystery.png" class="ferramenta-bg"
+                style="background-color: #000;">
+
+              <div class="ferramenta-overlay"></div>
+
+              <div class="ferramenta-conteudo">
+
+                <h3>SQL Murder Mystery</h3>
+
+                <div class="ferramenta-extra">
+
+                  <p>
+                    Uma plataforma online de minigames onde você aprende e pratica SQL enquanto investiga pistas para resolver um caso de assassinato.
+                  </p>
+
+                </div>
+
+              </div>
+            </a>
+          </div>
+
+          <div class="ferramenta-card">
+        <a href="https://sqlpd.com/" target="_blank">
+          <img src="./materiais/fundos/sql police.png" class="ferramenta-bg">
+
+          <div class="ferramenta-overlay"></div>
+
+          <div class="ferramenta-conteudo">
+
+            
+
+            <h3>SQL Police Departament</h3>
+
+            <div class="ferramenta-extra">
+
+              <p>
+                Uma plataforma online de minigames onde você aprende e pratica SQL utilizando de investigações policiais interativas para estimular a criação de consultas reais
+              </p>
+
+            </div>
+
+          </div>
+        </a>
+        </div>
+        </section>
+
+        <button class="carousel-btn next" aria-label="Próximo">&#8594;</button>
+      </div>
+  </div>
+</section>
 
         <button class="carousel-btn next" aria-label="Próximo">&#8594;</button>
       </div>

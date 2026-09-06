@@ -24,44 +24,513 @@
       
     }
 
-    /* ── NAV ── */
     nav {
-      
-      width: 100%;
-      background: rgba(0, 0, 0, 0.479);
-      border-bottom: 1px solid #000000;
-      padding: 10px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: fixed;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-    .nav-logo {
-      margin-left: 15%;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      
-    }
-    .nav-links {
-      margin-right: 15%;
-      display: flex;
-      gap: 28px;
-      list-style: none;
-    }
-    .nav-links a {
-      color:rgb(255, 255, 255);
-      text-decoration: none;
-      
-      font-weight: 700;
-      font-size: 0.92rem;
-      transition: color .2s;
-    }
-    .nav-links a:hover { color: var(--orange); }
+  width: 100%;
+  box-sizing: border-box;
 
+  background: rgba(0, 0, 0, 0.479);
+  border-bottom: 1px solid #000000;
+
+  padding: 10px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 100;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.nav-logo {
+  margin-left: 15%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   LINKS DA NAVBAR
+========================================================= */
+
+.nav-links {
+  margin-right: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+
+  list-style: none;
+
+  padding-left: 0;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 0.92rem;
+
+  transition: color 0.2s ease;
+
+  white-space: nowrap;
+}
+
+.nav-links .active {
+  color: var(--orange);
+}
+
+.nav-links a:hover {
+  color: var(--orange);
+}
+
+
+/* =========================================================
+   ACCORDION
+========================================================= */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+
+  color: white;
+
+  font-weight: 700;
+  font-size: 0.92rem;
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  padding: 0;
+
+  transition: color 0.2s ease;
+
+  white-space: nowrap;
+}
+
+.dropdown-btn:hover {
+  color: var(--orange);
+}
+
+.arrow {
+  font-size: 0.7rem;
+
+  transition: transform 0.3s ease;
+}
+
+
+/* =========================================================
+   DROPDOWN DESKTOP
+========================================================= */
+
+.dropdown-content {
+  position: absolute;
+
+  top: 35px;
+  left: 50%;
+
+  min-width: 180px;
+
+  background: rgba(0, 0, 0, 0.9);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 10px;
+
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 3px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateX(-50%) translateY(-10px);
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s ease;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+  z-index: 200;
+}
+
+.dropdown-content a {
+  display: block;
+
+  padding: 10px 14px;
+
+  border-radius: 6px;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background: rgba(255, 255, 255, 0.1);
+
+  color: var(--orange);
+}
+
+
+/* Accordion aberto */
+
+.dropdown.active .dropdown-content {
+  opacity: 1;
+
+  visibility: visible;
+
+  transform: translateX(-50%) translateY(0);
+}
+
+.dropdown.active .arrow {
+  transform: rotate(180deg);
+}
+
+
+/* =========================================================
+   BOTÃO HAMBÚRGUER
+========================================================= */
+
+.menu-toggle {
+  display: none;
+
+  background: none;
+  border: none;
+
+  color: white;
+
+  font-size: 1.8rem;
+
+  cursor: pointer;
+
+  padding: 5px;
+
+  line-height: 1;
+}
+
+
+/* =========================================================
+   TABLETS
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  nav {
+    padding: 10px 25px;
+  }
+
+  .nav-logo {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    margin-right: 0;
+
+    gap: 18px;
+  }
+
+  .nav-links a,
+  .dropdown-btn {
+    font-size: 0.85rem;
+  }
+
+}
+
+
+/* =========================================================
+   TABLETS PEQUENOS
+========================================================= */
+
+@media (max-width: 850px) {
+
+  nav {
+    padding: 10px 20px;
+  }
+
+  .nav-logo {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a,
+  .dropdown-btn {
+    font-size: 0.8rem;
+  }
+
+}
+
+
+/* =========================================================
+   CELULARES
+========================================================= */
+
+@media (max-width: 700px) {
+
+  /* -------------------------------------------------------
+     NAV
+  ------------------------------------------------------- */
+
+  nav {
+    min-height: 60px;
+
+    padding: 8px 20px;
+
+    box-sizing: border-box;
+  }
+
+
+  /* -------------------------------------------------------
+     LOGO
+  ------------------------------------------------------- */
+
+  .nav-logo {
+    margin-left: 0;
+  }
+
+  .nav-logo img {
+    height: 50px !important;
+    width: auto;
+  }
+
+
+  /* -------------------------------------------------------
+     BOTÃO HAMBÚRGUER
+  ------------------------------------------------------- */
+
+  .menu-toggle {
+    display: block;
+  }
+
+
+  /* -------------------------------------------------------
+     MENU
+  ------------------------------------------------------- */
+
+  .nav-links {
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 12px 20px;
+
+    background: rgba(0, 0, 0, 0.95);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 0;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-10px);
+
+    transition:
+      opacity 0.25s ease,
+      transform 0.25s ease,
+      visibility 0.25s ease;
+
+    z-index: 150;
+  }
+
+
+  /* -------------------------------------------------------
+     MENU ABERTO
+  ------------------------------------------------------- */
+
+  .nav-links.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: translateY(0);
+  }
+
+
+  /* -------------------------------------------------------
+     ITENS
+  ------------------------------------------------------- */
+
+  .nav-links li {
+    width: 100%;
+  }
+
+
+  /* -------------------------------------------------------
+     LINKS
+  ------------------------------------------------------- */
+
+  .nav-links a {
+
+    display: block;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 13px 5px;
+
+    font-size: 1rem;
+
+    white-space: normal;
+  }
+
+
+  /* -------------------------------------------------------
+     DROPDOWN MOBILE
+  ------------------------------------------------------- */
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-btn {
+
+    width: 100%;
+
+    justify-content: space-between;
+
+    padding: 13px 5px;
+
+    font-size: 1rem;
+
+    text-align: left;
+
+    white-space: normal;
+  }
+
+
+  /* -------------------------------------------------------
+     CONTEÚDO DO DROPDOWN
+  ------------------------------------------------------- */
+
+  .dropdown-content {
+
+    position: static;
+
+    width: 100%;
+
+    min-width: 0;
+
+    box-sizing: border-box;
+
+    margin-top: 3px;
+
+    padding: 5px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    border: none;
+
+    border-radius: 8px;
+
+    box-shadow: none;
+
+    transform: none;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    max-height: 0;
+
+    overflow: hidden;
+
+    transition:
+      opacity 0.25s ease,
+      max-height 0.3s ease,
+      visibility 0.25s ease;
+  }
+
+
+  /* -------------------------------------------------------
+     DROPDOWN ABERTO
+  ------------------------------------------------------- */
+
+  .dropdown.active .dropdown-content {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    max-height: 400px;
+
+    transform: none;
+  }
+
+
+  /* -------------------------------------------------------
+     LINKS DO DROPDOWN
+  ------------------------------------------------------- */
+
+  .dropdown-content a {
+
+    padding: 10px;
+
+    font-size: 0.95rem;
+
+    white-space: normal;
+  }
+
+}
     /* ── HERO ── */
     .hero {
         position: relative;
@@ -479,7 +948,6 @@
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       nav { padding: 10px 20px; }
-      .nav-links { display: none; }
       .hero { padding: 60px 24px 80px; }
       .section, .char-section, .section-orange, .stats-section { padding: 60px 24px; }
       .two-col { grid-template-columns: 1fr; gap: 30px; }
