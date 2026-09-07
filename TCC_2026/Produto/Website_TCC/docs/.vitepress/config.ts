@@ -16,22 +16,22 @@ export default defineConfig({
         items: [
           {
             text: 'Guia de introdução à programação',
-            items: [
-              { text: 'Ferramentas básicas', link: '/Ferramentas_B' },
-              { text: 'Intermediárias', },
-              { text: 'Avançadas', },
-            ],
+            link: '/Guias.html',
           },
           {
-            text: 'Biblioteca de ensino à programação',
+            text: 'Ferramentas de aprendizagem',
             items: [
               {
                 text: 'Ferramentas de Linguagem Própria',
-                items: [{ text: 'Scratch', link: '/Scratch_D' }],
+                items: [{ text: 'Scratch', link: '/Page_A_scratch.html' }],
+              },
+              {
+                text: 'Ferramentas de Multiplas Linguagens',
+                items: [{ text: 'Code Combat', link: '/Page_A_CodeCombat.html' }],
               },
               {
                 text: 'Linguagem Python',
-                items: [{ text: 'The Farmer Was Replaced', link: '/TFWR_D' }],
+                items: [{ text: 'The Farmer Was Replaced', link: '/Page_A_TFWR.html' }],
               },
             ],
           },
