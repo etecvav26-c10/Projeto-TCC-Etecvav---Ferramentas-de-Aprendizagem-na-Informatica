@@ -8,7 +8,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Introducao', link: '/Introducao' },
+      { text: 'Introducao', link: '/Introducao.html' },
     ],
 
     sidebar: [
