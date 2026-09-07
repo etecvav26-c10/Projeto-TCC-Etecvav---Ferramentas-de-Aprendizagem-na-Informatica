@@ -23,7 +23,7 @@ export default defineConfig({
             items: [
               {
                 text: 'Ferramentas de Linguagem Própria',
-                items: [{ text: 'Scratch', link: '/Page_A_scratch.html' }],
+                items: [{ text: 'Scratch', link: '/Page_A_scratch' }],
               },
               {
                 text: 'Ferramentas de Multiplas Linguagens',
@@ -31,7 +31,7 @@ export default defineConfig({
               },
               {
                 text: 'Linguagem Python',
-                items: [{ text: 'The Farmer Was Replaced', link: '/Page_A_TFWR.html' }],
+                items: [{ text: 'The Farmer Was Replaced', link: '/Page_A_' }],
               },
             ],
           },
