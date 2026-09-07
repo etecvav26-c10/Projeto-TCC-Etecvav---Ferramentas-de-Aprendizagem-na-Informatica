@@ -23,11 +23,11 @@ export default defineConfig({
             items: [
               {
                 text: 'Ferramentas de Linguagem Própria',
-                items: [{ text: 'Scratch', link: '/Page_A_scratch' }],
+                items: [{ text: 'Scratch', link: '/public/Page_A_scratch.html' }],
               },
               {
                 text: 'Ferramentas de Multiplas Linguagens',
-                items: [{ text: 'Code Combat', link: '/Page_A_CodeCombat.html' }],
+                items: [{ text: 'Code Combat', link: '/public/Page_A_CodeCombat.html' }],
               },
               {
                 text: 'Linguagem Python',
