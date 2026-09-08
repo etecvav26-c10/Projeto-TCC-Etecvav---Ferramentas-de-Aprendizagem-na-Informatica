@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <link rel="icon" href="./materiais/Logo_Preta.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infohub - Codechef</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+ <style>
+    .logo-checkio {
+    width: 800px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.logo-checkio span {
+    color: #ffffff;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 120px;
+    font-weight: 300;
+
+    letter-spacing: -1.5px;
+
+    white-space: nowrap;
+}
+  </style>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero"
+  style="--hero-color: rgba(10, 10, 10, 0.897);">
+
+    <!-- Carrossel de fundo -->
+    <div class="hero-carousel">
+
+      <div class="hero-slide active"
+        >
+      </div>
+    </div>
+    <!-- Conteúdo -->
+    <div class="hero-content">
+
+      <div class="hero-title">
+        <div class="logo-checkio">
+        <span>Turtle Academy</span>
+        </div>
+      </div>
+
+      <p class="hero-subtitle">
+        A Turtle Academy é uma plataforma online voltada a ensinar os principios da<br> programação de forma divertida com lições, desafios e outras atividades.
+      </p>
+
+      <a href="https://turtleacademy.com/" target="_blank" class="btn-primary">
+        Página Principal
+      </a>
+
+      <div class="hero-logos">
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/wifi-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Acesso rápido </p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/code-block-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Lições de vários campos</p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/accessibility-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%)">
+          <p class="hero-titles" >Fácil entendimento</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- O QUE É -->
+  <div class="section" style="--section-color: rgba(0, 73, 18, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>O que é a Turtle Academy?</h2>
+
+        <p>
+          A plataforma <strong>Turtle Academy</strong> é um ambiente online voltado para o
+          <strong>aprendizado de programação</strong>, utilizando a linguagem <strong>Logo</strong>
+          como principal recurso. A plataforma utiliza uma abordagem visual na qual o usuário
+          controla uma pequena "tartaruga" por meio de comandos, permitindo criar desenhos e
+          figuras enquanto aprende conceitos básicos de programação.
+        </p>
+
+        <p>
+          A Turtle Academy foi desenvolvida para tornar o aprendizado de programação mais
+          <strong>simples, visual e interativo</strong>. Em vez de trabalhar somente com códigos
+          abstratos, o estudante pode observar na tela o resultado dos comandos utilizados,
+          facilitando a compreensão da relação entre as instruções escritas e as ações realizadas
+          pela tartaruga.
+        </p>
+
+        <p>
+          A plataforma pode ser utilizada principalmente por pessoas que estão iniciando seus
+          estudos em programação. Por meio de atividades e exercícios, o usuário pode desenvolver
+          conceitos relacionados à <strong>sequência de comandos, repetição, procedimentos, lógica
+          de programação e resolução de problemas</strong>, utilizando a criação de desenhos como
+          parte do processo de aprendizagem.
+        </p>
+
+        <br />
+        <a href="https://exercism.org/" class="btn-primary">Página da plataforma</a>
+      </div>
+      <div class="img-block" style="height:auto;">
+        <img src="./materiais/Imagens_Page_A/turtlea1.jpg" alt="Turtle Academy" style="height: 800px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- COMO FUNCIONA -->
+  <div class="section" style="--section-color: rgba(0, 73, 18, 0.445);">
+    <div class="section-inner">
+      <div class="two-col reverse">
+        <div>
+          <div class="section-label">Funcionamento</div>
+          <h2>Como a plataforma funciona</h2>
+            <p>
+              O funcionamento da <strong>Turtle Academy</strong> é baseado na utilização da linguagem
+              <strong>Logo</strong> para controlar uma tartaruga virtual presente na tela. O estudante
+              escreve comandos que determinam ações como movimentar a tartaruga, alterar sua direção
+              ou desenhar linhas. Conforme os comandos são executados, seus resultados podem ser
+              observados visualmente no ambiente da plataforma.
+            </p>
+
+            <p>
+              Durante as atividades, o usuário pode aprender conceitos fundamentais de programação
+              por meio da experimentação. Comandos simples podem ser combinados para produzir
+              desenhos e formas mais elaboradas, permitindo compreender conceitos como
+              <strong>sequência de instruções, ângulos, coordenadas, repetições e procedimentos</strong>.
+              Dessa maneira, conteúdos que podem parecer abstratos inicialmente são apresentados
+              por meio de resultados visuais.
+            </p>
+
+            <p>
+              A plataforma também apresenta <strong>lições e atividades práticas</strong> que orientam
+              o estudante durante o aprendizado. As tarefas podem propor objetivos que precisam ser
+              alcançados utilizando os comandos da linguagem Logo, incentivando o usuário a testar
+              diferentes soluções e observar como cada instrução modifica o resultado apresentado
+              pela tartaruga.
+            </p>
+
+            <p>
+              Um dos principais aspectos da <strong>Turtle Academy</strong> é a relação entre
+              <strong>programação e criação visual</strong>. Ao executar um conjunto de comandos,
+              o estudante consegue visualizar imediatamente o resultado de seu código. Essa
+              característica pode facilitar a identificação de erros e ajudar o usuário a perceber
+              como pequenas alterações nas instruções podem modificar o desenho produzido.
+            </p>
+
+            <p>
+              A <strong>Turtle Academy</strong> também pode ser utilizada como recurso complementar
+              ao ensino de programação. Professores e educadores podem utilizar suas atividades
+              para introduzir conceitos básicos de lógica e programação, enquanto os estudantes
+              podem explorar os comandos de maneira independente. Dessa forma, seu funcionamento
+              combina <strong>lições, experimentação, programação visual e exercícios práticos</strong>,
+              criando um ambiente acessível para os primeiros contatos com a programação.
+            </p>
+
+            <br />
+        </div>
+        <div class="img-block" style="width: 100%; ">
+          <img src="./materiais/Imagens_Page_A/turtlea2.jpg" alt="Infohub Logo" class="imagem" style="height: 1000px; background-color:azure">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <div class="char-section">
+    <div class="char-inner">
+      <h2>Características da Turtle Academy</h2> <div class="cards">
+
+      <div class="card"> 
+        <div class="card-icon"> 
+          <!-- turtle / visual programming icon --> 
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+            <path d="M12 4a5 5 0 0 0-5 5v2H5a3 3 0 0 0 0 6h2v1a3 3 0 0 0 6 0v-1h2a3 3 0 0 0 0-6h-1V9a5 5 0 0 0-2-4zm0 2a3 3 0 0 1 3 3v2H9V9a3 3 0 0 1 3-3zm-7 7h2v2H5a1 1 0 0 1 0-2zm14 0a1 1 0 0 1 0 2h-2v-2h2zM9 13h6v3a3 3 0 0 1-6 0v-3z"/> 
+          </svg> 
+        </div> 
+        <h3>Programação Visual</h3> 
+        <p> 
+          A Turtle Academy utiliza a tartaruga virtual como recurso visual para representar a execução dos comandos.
+          Dessa forma, o estudante consegue observar diretamente os efeitos de suas instruções enquanto desenvolve
+          conceitos básicos de programação e lógica.
+        </p> 
+      </div>
+
+      <div class="card"> 
+        <div class="card-icon"> 
+          <!-- code / commands icon --> 
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+            <path d="M8.7 16.6 3.1 11l5.6-5.6L10.1 7l1.4 1.4-4.2 4.2 4.2 4.2-1.4 1.4zm6.6 0-1.4-1.4 4.2-4.2-4.2-4.2 1.4-1.4 5.6 5.6-5.6 5.6zM13.4 3l1.9.5-4.7 17-1.9-.5 4.7-17z"/> 
+          </svg> 
+        </div> 
+        <h3>Aprendizado com Logo</h3> 
+        <p> 
+          A plataforma utiliza a linguagem Logo para ensinar comandos e conceitos fundamentais de programação.
+          Os estudantes podem combinar instruções para movimentar a tartaruga, criar desenhos e experimentar
+          diferentes formas de solucionar as atividades propostas.
+        </p> 
+      </div>
+
+      <div class="card"> 
+        <div class="card-icon"> 
+          <!-- lessons / learning icon --> 
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+            <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm2 3v10h12V7H6zm2 2h8v2H8V9zm0 4h6v2H8v-2z"/> 
+          </svg> 
+        </div> 
+        <h3>Lições e Exercícios</h3> 
+        <p> 
+          A Turtle Academy disponibiliza lições e atividades que permitem praticar os comandos da linguagem Logo.
+          Esse formato possibilita que o estudante avance gradualmente e desenvolva habilidades de lógica,
+          experimentação e resolução de problemas por meio da prática.
+        </p> 
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- O QUE OFERECE -->
+  <div class="section" style="--section-color: rgba(0, 73, 18, 0.445);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div class="img-block">
+        <img src="./materiais/Imagens_Page_A/turtlea3.jpg" alt="W3schools" style="height: 800px;">
+      </div>
+      <div> 
+        <div class="section-label">Recursos</div> 
+        <h2>O que a Turtle Academy oferece?</h2>
+          <p>
+            Para os estudantes, a <strong>Turtle Academy</strong> oferece recursos voltados principalmente
+            para o <strong>aprendizado introdutório de programação e lógica</strong>. A utilização da
+            tartaruga virtual permite que os usuários escrevam comandos e visualizem seus resultados,
+            tornando o processo de aprendizagem mais interativo e facilitando a compreensão dos conceitos
+            apresentados.
+          </p>
+
+          <p>
+            A plataforma também oferece <strong>lições e atividades práticas</strong> que incentivam
+            os estudantes a experimentar diferentes comandos e construir suas próprias soluções.
+            Ao utilizar instruções para criar desenhos e formas, o usuário pode desenvolver conhecimentos
+            relacionados à sequência de comandos, repetição, procedimentos e outros fundamentos da
+            programação.
+          </p>
+
+          <p>
+            Outro aspecto importante da <strong>Turtle Academy</strong> é a possibilidade de aprender
+            por meio da <strong>experimentação e observação dos resultados</strong>. O estudante pode
+            executar seus comandos, verificar o comportamento da tartaruga e modificar o código quando
+            necessário. Esse processo contribui para o desenvolvimento do raciocínio lógico e da
+            capacidade de identificar e corrigir problemas em uma solução.
+          </p>
+
+          <p>
+            Para professores e educadores, a <strong>Turtle Academy</strong> pode funcionar como um
+            <strong>recurso complementar ao ensino de programação</strong>, especialmente em atividades
+            voltadas aos primeiros contatos com a área. As atividades podem ser utilizadas para
+            apresentar conceitos de lógica de forma visual e prática, enquanto os estudantes podem
+            explorar os comandos e desenvolver suas próprias criações. Dessa maneira, a plataforma
+            combina <strong>programação, experimentação, atividades práticas e representação visual</strong>,
+            proporcionando um ambiente acessível para iniciar o aprendizado de programação.
+          </p>
+
+          <br />
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+
+<script src="./Script.js"></script>
+</body>
+
+</html>

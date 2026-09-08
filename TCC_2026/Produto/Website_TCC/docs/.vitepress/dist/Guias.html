@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guias</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="Guias.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html" class="active">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <!-- Carrossel -->
+    <div class="hero-carousel">
+      <div class="hero-slide active" style="background-image:url('./materiais/fundos/Fundo_programacao.jpg')">
+      </div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="hero-content">
+
+      <div class="hero-coluna">
+
+        <div class="hero-title">
+
+          <h1>Como iniciar na programação!</h1>
+
+          <p class="hero-paragrafos">
+            Está confuso sobre como começar a aprender programação?
+            Não se preocupe! Aqui você encontrará guias detalhados e
+            recursos úteis para ajudá-lo a dar os primeiros passos.
+          </p>
+
+          <p class="hero-paragrafos" style="font-style: italic; font-size: 0.9rem;">
+            ps: Muitos dos recursos listados aqui são originalmente em inglês, caso não tenha familiaridade com o
+            idioma, tente utilizar tradutores online ou recorrer á outras alternativas.
+          </p>
+
+          <p class="hero-paragrafos">
+            ↓
+            <br>
+            Role para saber mais
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <div class="section">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Programação</div>
+        <h2>O que é Programação?</h2>
+        <p>
+          A programação nada mais é do que aprender a comunicar ideias e soluções no formato de instruções para um programa e executa-las. A programação está presente em quase tudo que observamos no nosso dia-dia principalmente em nossos dispositivos eletrônicos.</p>
+        <p>
+          A programação se dá em forma de Linguagens de programação, as quais são conjuntos de regras e sintaxe que permitem que uma pessoa consiga escrever um código que possa ser interpretado por um computador. Existem diversas linguagens de programação para cada proposito, porém todas elas compartilham de uma mesma base, a lógica de programação.
+        </p>
+        <p>
+          Nesse guia, você encontrará informações sobre a lógica de programação, linguagens de programação e repositórios, além de links para ferramentas que podem te ajudar a aprender e praticar programação.
+        </p>
+        <br />
+
+
+      </div>
+      <div class="container-imagem">
+        <img src="./materiais/Imagem/Programação_1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Lógica de programação</div>
+        <h2>Como aprender o básico da programação?</h2>
+        <p>
+          No nosso mundo atual, o cenário da informática e da programação vem crescendo rapidamente. E com isso surgem
+          várias vertentes e diferentes linguagens as quais as pessoas podem aprender. Nesse contexto, é importante
+          aprender uma lógica comum em todas essas linguagens. A lógica de programação.</p>
+        <p>
+          A lógica de programação é a base para qualquer linguagem de programação. Ela envolve a capacidade de pensar de
+          forma estruturada e resolver problemas de maneira eficiente. Compreender os conceitos fundamentais da lógica
+          de programação, como variáveis, estruturas de controle, loops e funções, é essencial para se tornar um
+          programador competente.
+        </p>
+        <p>
+          Para a nossa sorte, existem várias plataformas, jogos e sites que ensinam essa lógica de forma divertida e
+          eficiente. Aqui você pode encontrar alguns deles para poder se aprofundar.
+        </p>
+        <br />
+
+
+      </div>
+      <div class="container-imagem">
+        <img src="./materiais/Imagem/code.gif" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div style="background: #000;">
+    <div class="section">
+      <h2 style="text-align: center;">Ferramentas que ensinam a Lógica da programação</h2>
+    </div>
+    <!-- Cards-->
+    <div class="carousel-wrapper">
+      
+      <section class="container-cards">
+        <div class="ferramenta-card">
+          <a href="./Page_A_scratch.html" target="_blank">
+
+            <img src="./materiais/Fundo_Scratch_2.png" class="ferramenta-bg" style="background-color: #000;">
+
+            <div class="ferramenta-overlay"></div>
+
+            <div class="ferramenta-conteudo">
+
+              <img src="./materiais/scratch-svgrepo-com.svg" class="ferramenta-icone">
+
+              <h3>Scratch</h3>
+              
+        
+              <div class="ferramenta-extra">
+
+                <p>
+                  Plataforma simples e intuitiva que ensina a lógica da programação de forma divertida e interativa.
+                  Ideal
+                  para iniciantes.
+                </p>
+
+                <div class="ferramenta-info">
+                  <span>🌐 Linguagem própria</span>
+                  <br>
+                  <span>🏷️ Gratuita</span>
+                  <br>
+                  <span>📂 Open Source</span>
+                </div>
+
+              </div>
+              
+            </div>
+          </a>
+        </div>
+        
+        <div class="ferramenta-card">
+          <a href="./Page_A_CodeCombat.html" target="_blank">
+
+            <img src="./materiais/fundos/codehasprice_fundo.jpg" class="ferramenta-bg" style="background-color: #000;">
+
+            <div class="ferramenta-overlay"></div>
+
+            <div class="ferramenta-conteudo">
+
+              <img src="./materiais/logos/codecombat_logo.svg" class="ferramenta-icone">
+
+              <h3>Code combat</h3>
+
+              <div class="ferramenta-extra">
+
+                <p>
+                  Code Combat é uma plataforma de minigames a qual em resolver problemas utilizado comandos em varias
+                  linguagens de programação.
+                </p>
+
+                <div class="ferramenta-info">
+                  <span>🌐 Multiplas Linguagens</span>
+                  <br>
+                  <span>🏷️ Gratuito/Pago</span>
+                  <br>
+                  <span>📂 Open Source</span>
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+        <div class="ferramenta-card">
+        <a href="./Page_A_Codingame.html" target="_blank">
+          <img src="./materiais/fundos/codingame.png" class="ferramenta-bg">
+
+          <div class="ferramenta-overlay"></div>
+
+          <div class="ferramenta-conteudo">
+
+            <img src="./materiais/logos/codingame_01.svg" class="ferramenta-icone"
+              style="width:auto; height: 30px; padding-bottom:10px">
+
+            <h3>CodinGame</h3>
+
+            <div class="ferramenta-extra">
+
+              <p>
+                CodingGame é uma plataforma de desafios onde os usuários podem resolver problemas em diversas Linguagens
+                de programação enquanto veem seus resultados em tempo real.
+              </p>
+
+            </div>
+
+          </div>
+        </a>
+        </div>
+        
+        
+        <div class="ferramenta-card">
+          <a href="./Page_A_TFWR.html" target="_blank">
+        
+            <img src="./materiais/TFM_banner.png"
+                 class="ferramenta-bg">
+        
+            <div class="ferramenta-overlay"></div>
+        
+            <div class="ferramenta-conteudo">
+        
+              <img src="./materiais/drone-tech-svgrepo-com.svg"
+                   class="ferramenta-icone">
+        
+              <h3>The Farmer Was Replaced</h3>
+        
+              <div class="ferramenta-extra">
+        
+                <p>
+                  Um jogo que aborda a lógica da programação e ensina a linguagem
+                  Python de forma estimulante. Bom para iniciantes e intermediários.
+                </p>
+        
+                <div class="ferramenta-info">
+                  <span>🌐 Linguagem Python</span>
+                  <br>
+                  <span>🏷️ Pago</span>
+                  <br>
+                  <span>📂 Privado</span>
+                </div>
+        
+              </div>
+        
+            </div>
+        
+          </a>
+        </div>
+
+
+        </div>
+
+
+      </section>
+      
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="two-col reverse">
+      <div>
+  <div class="section-label">Linguagens de Programação</div>
+  <h2>Sobre Linguagens de Programação</h2>
+
+      <p>
+        Depois de compreender os conceitos básicos e a lógica por trás da programação, podemos conhecer uma das partes
+        mais importantes desse universo: as linguagens de programação. Elas são utilizadas pelos programadores para
+        escrever instruções que podem ser interpretadas e executadas pelos computadores, permitindo a criação de diferentes
+        tipos de sistemas, aplicações, sites e jogos.
+      </p>
+
+      <p>
+        Atualmente, existem diversas linguagens de programação, cada uma desenvolvida com características, regras e
+        finalidades próprias. Entre as mais conhecidas estão Python, JavaScript, Java, C++, C#, Ruby e muitas outras.
+        Apesar das diferenças entre elas, grande parte utiliza conceitos semelhantes, como variáveis, condições,
+        estruturas de repetição e funções. Dessa forma, compreender a lógica de programação facilita o aprendizado de
+        novas linguagens.
+      </p>
+
+      <p>
+        Aprender uma linguagem de programação exige prática, dedicação e experimentação. Com o tempo, o programador passa
+        a compreender sua sintaxe e seus recursos, podendo utilizá-los para desenvolver diferentes projetos.
+      </p>
+
+  <br />
+</div>
+      <div class="img-block" style="height:600px">
+        <img src="./materiais/logica_prog.png" alt="Scratch in use">
+      </div>
+    </div>
+  </div>
+  <div style="background: #000;">
+    <div class="section">
+      <h2 style="text-align: center;">Plataformas para aprender sobre Linguagens de Programação</h2>
+    </div>
+    <!-- Cards-->
+    <div class="carousel-wrapper">
+      
+      <section class="container-cards">
+        <div class="ferramenta-card">
+          <a href="./Page_A_W3Schools.html" target="_blank">
+
+            <img src="./materiais/fundos/w3schools_fundo.jpg" class="ferramenta-bg" style="background-color: #000;">
+
+            <div class="ferramenta-overlay"></div>
+
+            <div class="ferramenta-conteudo">
+
+              <img src="./materiais/W3_icon.svg" class="ferramenta-icone">
+
+              <h3>W3Schools</h3>
+
+              <div class="ferramenta-extra">
+
+                <p>
+                  W3Schools é uma plataforma de aprendizado online que oferece tutoriais e recursos para aprender várias
+                  linguagens de programação. É uma ótima ferramenta para iniciantes e desenvolvedores experientes.
+                </p>
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+
+        <div class="ferramenta-card">
+          <a href="./Page_A_Codeacademy.html" target="_blank">
+
+            <img src="./materiais/fundos/CodeAcademy.png" class="ferramenta-bg" style="background-color: #000;">
+
+            <div class="ferramenta-overlay"></div>
+
+            <div class="ferramenta-conteudo">
+
+              <img src="./materiais/logos/Codecademy.svg" class="ferramenta-icone"
+                style="width:auto; height: 30px; padding-bottom:10px">
+
+              <h3>CodeAcademy</h3>
+
+              <div class="ferramenta-extra">
+
+                <p>
+                  CodeAcademy é uma plataforma em inglês a qual oferece diversos cursos gratuitos para os usuários
+                  aprenderem e se especializarem em linguagens de Programação.
+                </p>
+
+
+
+              </div>
+
+            </div>
+          </a>
+        </div>
+
+        <div class="ferramenta-card">
+        <a href="./Page_A_KhanAcademy.html" target="_blank">
+          <img src="./materiais/fundos/Khan_academy.jpg" class="ferramenta-bg">
+
+          <div class="ferramenta-overlay"></div>
+
+          <div class="ferramenta-conteudo">
+
+            <img src="./materiais/logos/khan-academy.svg" class="ferramenta-icone">
+
+            <h3>Khan Academy</h3>
+
+            <div class="ferramenta-extra">
+
+              <p>
+                A Khan Academy é uma plataforma educacional de uso gratuito que fornece diversos cursos, tanto de
+                programação quanto de outras áreas da educação.
+              </p>
+
+            </div>
+
+          </div>
+        </a>
+        </div>
+        
+        <div class="ferramenta-card">
+            <a href="https://codecombat.com/home" target="_blank">
+
+              <img src="./materiais/fundos/exercism.png" class="ferramenta-bg"
+                style="background-color: #000;">
+
+              <div class="ferramenta-overlay"></div>
+
+              <div class="ferramenta-conteudo">
+
+                <img src="./materiais/logos/exercism.svg" class="ferramenta-icone">
+
+                <h3>Exercism</h3>
+
+                <div class="ferramenta-extra">
+
+                  <p>
+                    Exercism é uma plataforma de aprendizado de programação que oferece exercícios práticos em várias linguagens, incluindo C#. Os usuários podem resolver desafios e receber feedback da comunidade.
+                  </p>
+
+                </div>
+
+              </div>
+            </a>
+          </div>
+        
+        <div class="ferramenta-card">
+
+          <img src="./materiais/fundos/codechef.jpg" class="ferramenta-bg">
+
+          <div class="ferramenta-overlay"></div>
+
+          <div class="ferramenta-conteudo">
+
+            <img src="./materiais/logos/codechef.svg" class="ferramenta-icone"
+              style="width:auto; height: 30px; padding-bottom:10px">
+
+            <h3>Code Chef</h3>
+
+            <div class="ferramenta-extra">
+
+              <p>
+                O CodeChef é uma famosa plataforma online indiana focada em programação competitiva, desenvolvimento de
+                software e ensino de algoritmos.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <div class="section">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Plataformas</div>
+        <h2>Curso em vídeo</h2>
+        <p>
+          Além das plataformas de aprendizado online, existem muitos canais de vídeo que oferecem conteúdos sobre programação e desenvolvimento de software. Esses canais são excelentes para quem prefere aprender com vídeos explicativos e exemplos práticos.
+        </p>
+        <p>
+          Dessas plataformas, podemos destacar o Curso em vídeo, uma plataforma e canal no youtube que dispobiliza diversos cursos gratuitos sobre programação, desenvolvimento web, banco de dados e muito mais. É uma ótima opção para quem deseja aprender de forma prática e visual.
+        </p>
+        <p>
+          A plataforma oferece Aulas, videos, exercicios e materiais de apoio, além disso é completamente gratuita e desenvolvida em português pelo professor Guanabara.
+        </p>
+        <p>
+          Você pode acessar a plataforma do Curso em vídeo por meio do botão abaixo, ou procurar pelo canal no YouTube.
+        </p>
+        <br />
+
+        <a href="https://www.cursoemvideo.com/" target="_blank" class="btn-primary">
+        Curso em vídeo
+      </a>
+
+      </div>
+      <div class="container-imagem">
+        <img src="./materiais/Imagem/curso em vídeo.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+  <script src="./Script.js"></script>
+  <script>
+    // Faz os botões de seta rolarem a trilha de cards
+    document.querySelectorAll('.carousel-wrapper').forEach((wrapper) => {
+      const track = wrapper.querySelector('.container-cards');
+      const prevBtn = wrapper.querySelector('.carousel-btn.prev');
+      const nextBtn = wrapper.querySelector('.carousel-btn.next');
+
+      function scrollByCards(direction) {
+        const card = track.querySelector('.ferramenta-card');
+        if (!card) return;
+        const cardWidth = card.getBoundingClientRect().width;
+        const gap = 24; // precisa bater com o "gap" do .container-cards no CSS
+        track.scrollBy({ left: direction * (cardWidth + gap), behavior: 'smooth' });
+      }
+
+      function updateButtons() {
+        const maxScroll = track.scrollWidth - track.clientWidth - 1;
+        prevBtn.disabled = track.scrollLeft <= 0;
+        nextBtn.disabled = track.scrollLeft >= maxScroll;
+      }
+
+      prevBtn.addEventListener('click', () => scrollByCards(-1));
+      nextBtn.addEventListener('click', () => scrollByCards(1));
+      track.addEventListener('scroll', updateButtons);
+      window.addEventListener('resize', updateButtons);
+      updateButtons();
+
+    });
+    
+  </script>
+</body>
+
+
+</html>

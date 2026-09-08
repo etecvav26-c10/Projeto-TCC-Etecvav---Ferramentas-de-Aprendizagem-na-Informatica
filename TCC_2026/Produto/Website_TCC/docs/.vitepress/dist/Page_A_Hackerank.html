@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <link rel="icon" href="./materiais/Logo_Preta.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infohub - Codechef</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+
+  <div class="nav-logo">
+    <img src="./materiais/Logo_Preta.png"
+         style="height: 60px; width: auto;"
+         alt="Logo">
+  </div>
+
+  <!-- Botão do menu mobile -->
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="./Hub_principal.html">Hub Inicial</a>
+    </li>
+
+    <li>
+      <a href="Introducao.html">Documentação</a>
+    </li>
+
+    <!-- Accordion -->
+    <li class="dropdown">
+
+      <button class="dropdown-btn">
+        Linguagens de Programação
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="dropdown-content">
+        <a href="./Page_l_python.html">Python</a>
+        <a href="./Page_l_Csharp.html">Csharp</a>
+        <a href="./Page_l_java.html">Java</a>
+        <a href="./Page_l_Javascript.html">JavaScript</a>
+        <a href="./Page_l_php.html">PHP</a>
+        <a href="./Page_l_sql.html">SQL</a>
+      </div>
+
+    </li>
+
+    <li>
+      <a href="./Guias.html">
+        Guia para Programação
+      </a>
+    </li>
+
+    <li>
+      <a href="./Plataformas.html">
+        Página de Plataformas
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+  <!-- HERO -->
+  <section class="hero"
+  style="--hero-color: rgba(10, 10, 10, 0.897);">
+
+    <!-- Carrossel de fundo -->
+    <div class="hero-carousel">
+
+      <div class="hero-slide active"
+        style="background-image:url('./materiais/Fundos_Page_A/hackrank.png')">
+      </div>
+    </div>
+    <!-- Conteúdo -->
+    <div class="hero-content" style="padding-bottom: 30px;">
+
+      <div class="hero-title">
+        <img src="./materiais/Logos_Page_A/HackerRank.png"
+          style=" height: 350px; width: auto;">
+      </div>>
+
+      <p class="hero-subtitle">
+        O HackerRank é uma das maiores plataformas globais focadas em programação competitiva<br> recrutamento técnico e desenvolvimento de habilidades para programadores
+      </p>
+
+      <a href="https://turtleacademy.com/" target="_blank" class="btn-primary">
+        Página Principal
+      </a>
+
+      <div class="hero-logos">
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/wifi-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Multiplas linguagens </p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/code-block-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%);">
+          <p class="hero-titles" >Desafios práticos </p>
+        </div>
+        <div class="hero-logos-section">
+          <img src="./materiais/Videos/Gifs/accessibility-svgrepo-com.svg"
+            style="height: 40px; filter:invert(100%)">
+          <p class="hero-titles" >Competições</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- O QUE É -->
+  <div class="section" style="--section-color: rgba(1, 0, 53, 0.514);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <div class="section-label">Sobre a plataforma</div>
+        <h2>O que é a HackerRank?</h2>
+
+          <p>
+            A plataforma <strong>HackerRank</strong> é um ambiente online voltado para o
+            <strong>aprendizado e a prática de programação</strong>, utilizando desafios e
+            exercícios para desenvolver conhecimentos técnicos. Os usuários podem resolver
+            problemas por meio da escrita de código, praticando conceitos relacionados à
+            lógica de programação, algoritmos e resolução de problemas.
+          </p>
+
+          <p>
+            A HackerRank oferece atividades em diversas <strong>linguagens de programação</strong>,
+            como Python, Java, JavaScript, C, C++, C#, Ruby e outras. Os exercícios são organizados
+            em diferentes áreas e níveis de dificuldade, permitindo que o usuário pratique desde
+            conceitos básicos até problemas que exigem conhecimentos mais avançados de programação.
+          </p>
+
+          <p>
+            Além dos exercícios tradicionais, a plataforma também possui desafios relacionados a
+            <strong>algoritmos, estruturas de dados, matemática, inteligência artificial, bancos de
+            dados e desenvolvimento de software</strong>. Dessa forma, a HackerRank pode ser utilizada
+            tanto por pessoas que estão aprendendo programação quanto por usuários que desejam
+            aprimorar conhecimentos técnicos por meio da resolução de problemas.
+          </p>
+        <br>
+        <a href="https://exercism.org/" class="btn-primary">Página da plataforma</a>
+      </div>
+      <div class="img-block" style="height:auto;">
+        <img src="./materiais/Imagens_Page_A/hackerrank.png" alt="Turtle Academy" style="height: 800px;">
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- COMO FUNCIONA -->
+  <div class="section" style="--section-color: rgba(1, 0, 53, 0.514);">
+    <div class="section-inner">
+      <div class="two-col reverse">
+        <div>
+          <div class="section-label">Funcionamento</div>
+          <h2>Como a plataforma funciona</h2>
+
+      <p>
+        O funcionamento da <strong>HackerRank</strong> é baseado na disponibilização de
+        <strong>desafios de programação</strong> que devem ser solucionados pelo usuário
+        utilizando código. O estudante pode escolher uma área ou linguagem de programação
+        e selecionar atividades de acordo com seus conhecimentos e objetivos de aprendizagem.
+      </p>
+
+      <p>
+        Durante os desafios, o usuário recebe um problema acompanhado de uma descrição e,
+        em muitos casos, exemplos que ajudam a compreender o resultado esperado. A partir
+        dessas informações, é necessário analisar o problema e desenvolver uma solução
+        utilizando a linguagem de programação escolhida. As atividades podem abordar conceitos
+        como <strong>variáveis, condicionais, estruturas de repetição, funções, algoritmos
+        e estruturas de dados</strong>.
+      </p>
+
+      <p>
+        Depois de desenvolver uma solução, o estudante pode <strong>executar e enviar seu
+        código para avaliação</strong>. A plataforma utiliza testes para verificar se a solução
+        produz os resultados esperados em diferentes situações. Dessa forma, o usuário pode
+        identificar erros e compreender se sua implementação atende aos requisitos apresentados
+        no desafio.
+      </p>
+
+      <p>
+        Conforme resolve atividades, o usuário pode avançar para <strong>desafios de maior
+        dificuldade</strong> e explorar diferentes áreas da programação. Esse sistema permite
+        que o estudante pratique de maneira progressiva, revisando conceitos básicos e
+        desenvolvendo habilidades necessárias para resolver problemas mais complexos.
+      </p>
+
+      <p>
+        A <strong>HackerRank</strong> também possui recursos relacionados à avaliação de
+        conhecimentos técnicos e à realização de desafios de programação. Além do uso
+        educacional, a plataforma é conhecida por ser utilizada em processos de avaliação
+        técnica, nos quais empresas podem propor desafios para analisar conhecimentos de
+        programação e resolução de problemas. Dessa maneira, seu funcionamento combina
+        <strong>exercícios práticos, avaliação automática, desafios de programação e
+        desenvolvimento de habilidades técnicas</strong>.
+      </p>
+
+      <br />
+
+        </div>
+        <div class="img-block" style="width: 100%; ">
+          <img src="./materiais/Imagens_Page_A/hackerank2.png" alt="HackerRank Logo" class="imagem" style="height: 800px; background-color:azure">
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARACTERÍSTICAS -->
+  <div class="char-section">
+    <div class="char-inner">
+      <h2>Características da HackerRank</h2> <div class="cards">
+
+    <div class="card"> 
+      <div class="card-icon"> 
+        <!-- programming languages icon --> 
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+          <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h16V6H4zm3 3h3v2H7V9zm0 4h5v2H7v-2zm7-4h3v2h-3V9zm0 4h3v2h-3v-2z"/> 
+        </svg> 
+      </div> 
+      <h3>Diversidade de Linguagens</h3> 
+          <p> 
+            A HackerRank oferece desafios em diversas linguagens de programação, permitindo que
+            o estudante escolha aquelas que deseja aprender ou aprimorar. Essa variedade possibilita
+            praticar diferentes conceitos e desenvolver habilidades que podem ser utilizadas em
+            diferentes áreas da programação.
+          </p> 
+        </div>
+
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- coding challenge icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M8.7 16.6 3.1 11l5.6-5.6L10.1 7l1.4 1.4-4.2 4.2 4.2 4.2-1.4 1.4zm6.6 0-1.4-1.4 4.2-4.2-4.2-4.2 1.4-1.4 5.6 5.6-5.6 5.6zM13.4 3l1.9.5-4.7 17-1.9-.5 4.7-17z"/> 
+            </svg> 
+          </div> 
+          <h3>Desafios de Programação</h3> 
+          <p> 
+            A plataforma utiliza desafios como um dos principais recursos para o desenvolvimento
+            das habilidades de programação. Os estudantes precisam analisar problemas e criar
+            soluções utilizando código, praticando aspectos como lógica, algoritmos, estruturas
+            de dados e resolução de problemas.
+          </p> 
+        </div>
+
+        <div class="card"> 
+          <div class="card-icon"> 
+            <!-- automatic evaluation icon --> 
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm-1-13h2v6h-2V7zm0 8h2v2h-2v-2z"/> 
+            </svg> 
+          </div> 
+          <h3>Avaliação Automática</h3> 
+          <p> 
+            A HackerRank permite executar e enviar as soluções desenvolvidas para avaliação.
+            Os códigos são analisados por meio de testes que verificam se os resultados obtidos
+            correspondem ao esperado, ajudando o estudante a identificar erros e aprimorar suas
+            soluções.
+          </p> 
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- O QUE OFERECE -->
+  <div class="section" style="--section-color: rgba(1, 0, 53, 0.514);">
+    <div class="section-inner">
+    <div class="two-col">
+      <div class="img-block">
+        <img src="./materiais/Imagens_Page_A/hackerank3.png" alt="W3schools" style="width: 100%; height: 800px;">
+      </div>
+      <div> 
+        <div class="section-label">Recursos</div> 
+        <h2>O que a HackerRank oferece?</h2>
+          <p>
+            Para os estudantes, a <strong>HackerRank</strong> oferece uma variedade de recursos
+            voltados principalmente para o <strong>aprendizado e a prática de programação</strong>.
+            A plataforma disponibiliza desafios em diferentes linguagens e áreas, permitindo que
+            o usuário escolha os conteúdos que deseja praticar e desenvolva suas habilidades por
+            meio da resolução de problemas.
+          </p>
+
+          <p>
+            A plataforma também oferece <strong>execução e avaliação automática de código</strong>,
+            permitindo que os estudantes testem suas soluções e verifiquem se elas atendem aos
+            requisitos de cada exercício. Esse processo possibilita identificar erros e experimentar
+            diferentes formas de solucionar um problema, contribuindo para o desenvolvimento do
+            raciocínio lógico e da capacidade de programação.
+          </p>
+
+          <p>
+            Outro recurso importante da <strong>HackerRank</strong> é a variedade de áreas disponíveis
+            para prática. Além de exercícios de algoritmos e estruturas de dados, a plataforma
+            apresenta desafios relacionados a <strong>bancos de dados, matemática, inteligência
+            artificial e outras áreas técnicas</strong>. Essa diversidade permite que o usuário
+            explore diferentes conhecimentos de acordo com seus interesses e objetivos.
+          </p>
+
+          <p>
+            Para professores e educadores, a <strong>HackerRank</strong> pode funcionar como um
+            <strong>recurso complementar ao ensino de programação</strong>, oferecendo atividades
+            que podem ser utilizadas para estimular a prática dos conteúdos apresentados em aula.
+            Os estudantes podem utilizar os desafios para revisar conceitos, testar seus conhecimentos
+            e desenvolver soluções de forma independente. Dessa maneira, a plataforma combina
+            <strong>desafios práticos, programação, avaliação automática e resolução de problemas</strong>,
+            proporcionando um ambiente voltado ao desenvolvimento contínuo das habilidades técnicas.
+          </p>
+
+        <br />
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+      <div class="footer-copy">Todos os direitos reservados a Etec Vasco Antonio Venchiarutti @2026</div>
+    </div>
+  </footer>
+
+<script src="./Script.js"></script>
+</body>
+
+</html>

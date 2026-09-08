@@ -23,7 +23,7 @@ export default defineConfig({
             items: [
               {
                 text: 'Ferramentas de Linguagem Própria',
-                items: [{ text: 'Scratch', link: './Page_A_scratch.html' }],
+                items: [{ text: 'Scratch', link: '/Page_A_scratch.html' }],
               },
               {
                 text: 'Ferramentas de Multiplas Linguagens',

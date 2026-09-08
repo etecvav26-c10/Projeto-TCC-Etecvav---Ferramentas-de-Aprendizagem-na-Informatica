@@ -1,0 +1,1 @@
+import{p as e,o as t,c as a}from"./chunks/framework.BN7V4KR5.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{"layout":false},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"},d=Object.assign(n,{setup(o){return e(()=>{window.location.href="./Hub_principal.html"}),(r,i)=>(t(),a("div"))}});export{c as __pageData,d as default};
