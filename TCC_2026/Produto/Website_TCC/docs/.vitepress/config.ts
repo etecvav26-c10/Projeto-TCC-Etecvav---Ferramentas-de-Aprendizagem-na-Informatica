@@ -40,7 +40,7 @@ export default defineConfig({
                 items: [
                   {
                     text: 'Code Combat',
-                    link: `/Page_A_codeCombat.html`,
+                    link: `/Page_A_CodeCombat.html`,
                     target: '_self',
                   },
                 ],
