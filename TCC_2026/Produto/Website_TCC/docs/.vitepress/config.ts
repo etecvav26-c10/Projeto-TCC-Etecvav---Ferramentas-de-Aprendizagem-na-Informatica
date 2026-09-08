@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  base: 'https://etecvav26-c10.github.io/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
+  base: '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
   lang: 'pt-BR',
   title: 'Infohub',
   description: 'Portal de ferramentas de aprendizagem em programação.',
 
   themeConfig: {
     nav: [
-      { text: 'Introducao', link: '/Introducao.html' },
+      { text: 'Introducao', link: '/Introducao' },
     ],
 
     sidebar: [
