@@ -40,7 +40,8 @@ export default defineConfig({
                 items: [
                   {
                     text: 'Code Combat',
-                    link: `/Page_A_CodeCombat.html`,
+                    link: `/Page_A_codeCombat.html`,
+                    target: '_self',
                   },
                 ],
               },
@@ -52,6 +53,7 @@ export default defineConfig({
                   {
                     text: 'The Farmer Was Replaced',
                     link: `/Page_A_TFWR.html`,
+                    target: '_self',
                   },
                 ],
               },
