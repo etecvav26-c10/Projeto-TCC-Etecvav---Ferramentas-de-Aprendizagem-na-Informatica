@@ -28,7 +28,7 @@ export default defineConfig({
                 items: [
                   {
                     text: 'Scratch',
-                    link: '/Page_A_scratch.html',
+                    link: '/Page_A_Scratch',
                   },
                 ],
               },
