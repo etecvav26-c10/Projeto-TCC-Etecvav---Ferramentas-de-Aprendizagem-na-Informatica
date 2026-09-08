@@ -1,9 +1,6 @@
 import { defineConfig } from 'vitepress';
-
-const base = '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/';
-
 export default defineConfig({
-  base,
+  base: '/Projeto-TCC-Etecvav---Ferramentas-de-Aprendizagem-na-Informatica/',
   lang: 'pt-BR',
   title: 'Infohub',
   description: 'Portal de ferramentas de aprendizagem em programação.',
@@ -42,7 +39,7 @@ export default defineConfig({
                 items: [
                   {
                     text: 'Code Combat',
-                    link: `${base}Page_A_CodeCombat.html`,
+                    link: `/Page_A_CodeCombat.html`,
                   },
                 ],
               },
@@ -53,7 +50,7 @@ export default defineConfig({
                 items: [
                   {
                     text: 'The Farmer Was Replaced',
-                    link: `${base}Page_A_TFWR.html`,
+                    link: `/Page_A_TFWR.html`,
                   },
                 ],
               },
