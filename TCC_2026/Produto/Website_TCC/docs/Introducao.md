@@ -1,21 +1,32 @@
 # Introdução
 
-Bem vindo á **documentação do Infohub**, aqui dentro você pode encontrar informações mais precisas e conhecimentos mais avançados sobre os objetos pesquisados dentro da plataforma. Explore e se divirta procurando novos meios de aprender programação!
+Bem vindo á **documentação do Infohub**, Aqui você vai ter uma aba de navegação mais simples entre os conteúdos do site
 
-Aqui vão mais algumas informações sobre o que você pode encontrar aqui:
+## Guia
+A página de Guia vai falar sobre ferramentas gerais que as pessoas podem usar para aprender programação, como plataformas, sites, playlists e etc.
 
-## Guias
+## Ferramentas
 
-A página de Guias, como o próprio nome já diz, propões guias para iniciantes ou programadores intermediarios os quais querem encontrar ferramentas e métodos de aprender ou melhorar seus estudas na área de informática.
+A página de ferramentas fala sobre sites, jogos, instituições e afins que abordam o ensino da programação, você pode utilizar delas para aprender, treinar e ensinar.
 
-Nesse guias serão propostos métodos de estudo e ferramentas educacionais os quais podem ser utilizadas no aprendizado e treino de principios da lógica e das linguagem nos estudos sobre a área da informática.
+- #### Ferramentas de Linguagem própria:
+Tem sua própria forma de operar e possuem sua própria mecânica de ensino.
 
-- **Ferramentas básicas** - Propões um guia básico de ferramentas e meios para aqueles que querem ingressar na programação, mas nunca tiveram contato prévio.
+- #### Ferramentas de Multiplas Linguagens:
+Abordam várias linguagens de programação, geralmente com a opção de escolha entre qual aprender.
 
-- **Ferramentas Intermediarias** - Ferramentas para aqueles que já estão famializados com os conceitos, mas que gostariam de treinar e desenvolver suas habilidades.
+- #### Ferramentas de Linguagem especifica:
+Websites, plataformas e jogos destinados á ensinar uma linguagem em especifico para o usuário.
 
-- **Ferramentas Avançadas** - Para aqueles mais avançados, que já possuem um estudo bem aprofundado e querem encontrar meios de se divertir e desafiar suas habilidades como programador
+## Plataformas
 
-## Bliblioteca de Ensino
+Aborda sobre principais plataformas para aprender aspectos da computação, separadas em categorias
 
-Aqui você irá encontrar uma compilação dos itens estudados e dissertados pela plataforma, sendo separados pelas linguagens os quais eles ensinam ou são programados sobre.
+- #### Plataformas de Cursos:
+Oferecem cursos, aulas e guias destinados aos alunos para que eles possam aprender sobre programação .
+
+- #### Plataformas de Exercicio:
+Oferecem atividades, competições e desafios para incentivar o aluno á práticar e desenvolver seu conhecimento da programação utilizada.
+
+- #### Plataformas de Revisão:
+Plataformas dedicadas á oferecer informações sobre funções, sintaxe e servirem como portais de conhecimento para iniciantes da TI
