@@ -33,6 +33,10 @@ jobs:
         working-directory: TCC_2026/Produto/Website_TCC
         run: npm install
 
+      - name: Fix VitePress permissions
+        working-directory: TCC_2026/Produto/Website_TCC
+        run: chmod +x node_modules/.bin/vitepress
+
       - name: Build VitePress
         working-directory: TCC_2026/Produto/Website_TCC
         run: npm run docs:build
