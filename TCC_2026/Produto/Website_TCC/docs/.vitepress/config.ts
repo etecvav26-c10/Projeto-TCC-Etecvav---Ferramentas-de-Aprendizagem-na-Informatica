@@ -29,6 +29,7 @@ export default defineConfig({
                   {
                     text: 'Scratch',
                     link: '/Page_A_Scratch',
+                    target: '_self',
                   },
                 ],
               },
