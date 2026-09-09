@@ -266,7 +266,7 @@ export default defineConfig({
                   },
                   {
                     text: 'LeetCode',
-                    link: `/Page_A_Leetcode.html`,
+                    link: `/Page_A_LeetCode.html`,
                     target: '_self',
                   },
                   {
