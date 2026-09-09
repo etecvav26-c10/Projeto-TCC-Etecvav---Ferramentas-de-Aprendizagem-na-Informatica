@@ -16,6 +16,7 @@ export default defineConfig({
           {
             text: 'Guia de introdução à programação',
             link: '/Guias.html',
+            target: '_self',
           },
 
           {
