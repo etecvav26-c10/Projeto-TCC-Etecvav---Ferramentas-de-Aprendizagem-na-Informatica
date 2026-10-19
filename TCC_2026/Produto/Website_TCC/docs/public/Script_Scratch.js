@@ -164,30 +164,79 @@ const blocos = [bloco1, bloco2, bloco3, bloco4];
 // POSIÇÕES INICIAIS
 // =======================
 
-bloco1.posX = 50;
-bloco1.posY = 50;
+// valores provisórios (evita NaN antes das imagens carregarem)
+blocos.forEach(bloco => {
+    bloco.posX = 0;
+    bloco.posY = 0;
 
-bloco2.posX = 200;
-bloco2.posY = 200;
+    // não depende do CSS: o translate passa a contar do canto do container
+    bloco.style.left = "0";
+    bloco.style.top = "0";
+});
 
-bloco3.posX = 50;
-bloco3.posY = 350;
+// container com position: relative (a div .blocos)
+const area = bloco1.offsetParent;
 
-bloco4.posX = 100;
-bloco4.posY = 500;
+// mantém o bloco dentro do container
+function limitar(bloco){
 
-// =======================
-// APLICA POSIÇÕES
-// =======================
+    const maxX = Math.max(0, area.clientWidth  - bloco.offsetWidth);
+    const maxY = Math.max(0, area.clientHeight - bloco.offsetHeight);
+
+    bloco.posX = Math.min(Math.max(0, bloco.posX), maxX);
+    bloco.posY = Math.min(Math.max(0, bloco.posY), maxY);
+
+}
+
+// em tela pequena o bloco nunca passa de 85% da largura do container
+function ajustarTamanho(){
+
+    const pequeno = window.matchMedia("(max-width: 768px)").matches;
+
+    blocos.forEach(bloco => {
+        bloco.style.maxWidth = pequeno ? "85%" : "";
+    });
+
+}
+
+// posições iniciais em % do tamanho do container
+function posicionarBlocos(){
+
+    ajustarTamanho();
+
+    const w = area.clientWidth;
+    const h = area.clientHeight;
+
+    bloco1.posX = w * 0.05;  bloco1.posY = h * 0.05;
+    bloco2.posX = w * 0.30;  bloco2.posY = h * 0.28;
+    bloco3.posX = w * 0.05;  bloco3.posY = h * 0.52;
+    bloco4.posX = w * 0.20;  bloco4.posY = h * 0.75;
+
+    blocos.forEach(limitar);
+
+}
+
+// só depois das imagens carregarem (antes disso offsetWidth é 0)
+window.addEventListener("load", posicionarBlocos);
+
+// ao redimensionar, só garante que ninguém saiu da área
+// (não reposiciona, senão a barra do navegador no celular resetaria os blocos)
+window.addEventListener("resize", () => {
+    ajustarTamanho();
+    blocos.forEach(limitar);
+});
+
+ajustarTamanho();
 
 // =======================
 // VARIÁVEIS
 // =======================
 
 let blocoAtual = null;
+let pointerIdAtual = null;   // qual dedo/mouse está arrastrando
 
-let mouseX = 0;
-let mouseY = 0;
+let pointerX = 0;
+let pointerY = 0;
 
 let offsetX = 0;
 let offsetY = 0;
@@ -197,38 +246,69 @@ let bloco123Criado = false;
 let bloco1234Criado = false;
 
 // =======================
-// ARRASTAR
+// ARRASTAR (mouse + toque + caneta)
 // =======================
 
 blocos.forEach(bloco => {
 
-bloco.addEventListener("mousedown",(e)=>{
+    // impede que o navegador role a página / arraste a imagem
+    // enquanto o usuário move o bloco
+    bloco.style.touchAction = "none";
+    bloco.draggable = false;
+    bloco.addEventListener("dragstart", (e) => e.preventDefault());
 
-blocoAtual = bloco;
+    bloco.addEventListener("pointerdown", (e) => {
 
-offsetX = e.clientX - bloco.posX;
-offsetY = e.clientY - bloco.posY;
+        // ignora o botão direito do mouse e um segundo dedo
+        if (e.pointerType === "mouse" && e.button !== 0) return;
+        if (blocoAtual) return;
 
-});
+        blocoAtual = bloco;
+        pointerIdAtual = e.pointerId;
+
+        pointerX = e.clientX;
+        pointerY = e.clientY;
+
+        offsetX = e.clientX - bloco.posX;
+        offsetY = e.clientY - bloco.posY;
+
+        // continua recebendo os eventos mesmo se o dedo sair de cima do bloco
+        bloco.setPointerCapture(e.pointerId);
+
+        e.preventDefault();
+
+    });
 
 });
 
 // =======================
-// MOUSE
+// MOVIMENTO
 // =======================
 
-document.addEventListener("mousemove",(e)=>{
+document.addEventListener("pointermove", (e) => {
 
-mouseX = e.clientX;
-mouseY = e.clientY;
+    if (e.pointerId !== pointerIdAtual) return;
 
-});
-
-document.addEventListener("mouseup",()=>{
-
-blocoAtual = null;
+    pointerX = e.clientX;
+    pointerY = e.clientY;
 
 });
+
+// =======================
+// SOLTAR
+// =======================
+
+function soltarBloco(e) {
+
+    if (e.pointerId !== pointerIdAtual) return;
+
+    blocoAtual = null;
+    pointerIdAtual = null;
+
+}
+
+document.addEventListener("pointerup", soltarBloco);
+document.addEventListener("pointercancel", soltarBloco);
 
 // =======================
 // LOOP SUAVE
@@ -238,8 +318,10 @@ function loop(){
 
 if(blocoAtual){
 
-  blocoAtual.posX = mouseX - offsetX;
-  blocoAtual.posY = mouseY - offsetY;
+  blocoAtual.posX = pointerX - offsetX;
+  blocoAtual.posY = pointerY - offsetY;
+
+  limitar(blocoAtual);   // o bloco não sai do container
 
   verificarColisoes();
 
@@ -248,6 +330,9 @@ if(blocoAtual){
 blocos.forEach(bloco => {
 
   if(bloco.style.display !== "none"){
+
+    // reajusta sempre: depois da união a imagem fica maior
+    limitar(bloco);
 
     atualizarPosicao(bloco);
 
