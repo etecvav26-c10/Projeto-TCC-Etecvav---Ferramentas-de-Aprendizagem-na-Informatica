@@ -76,10 +76,11 @@ nav {
   white-space: nowrap;
 }
 
-.nav-links .active,
+.nav-links .active { color: var(--orange); }
 .nav-links a:hover { color: var(--orange); }
 
-/* Dropdown */
+/* ACCORDION */
+
 .dropdown { position: relative; }
 
 .dropdown-btn {
@@ -674,9 +675,11 @@ footer {
     top: 100%;
     left: 0;
     width: 100%;
+    box-sizing: border-box;
     margin: 0;
     padding: 12px 20px;
     background: rgba(0, 0, 0, 0.95);
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
@@ -699,6 +702,7 @@ footer {
   .nav-links a {
     display: block;
     width: 100%;
+    box-sizing: border-box;
     padding: 13px 5px;
     font-size: 1rem;
     white-space: normal;

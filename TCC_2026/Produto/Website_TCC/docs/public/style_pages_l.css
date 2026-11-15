@@ -1811,6 +1811,7 @@
         padding: 180px 40px;
         
       }
+      
   
     /* Carrossel */
     .hero-carousel {
@@ -1931,6 +1932,19 @@
       text-transform: uppercase;
       color: var(--white);
       margin-top: 12px;
+    }
+
+    @media (max-width: 768px) {
+
+      .hero-content {
+        width:90%;
+        max-width:1370px;
+        margin:0 auto;
+        position: relative;
+        z-index: 2;
+        display:block;
+        grid-template-columns: 1fr 1fr;
+    }
     }
     /* Botões */
     .btn-primary {
